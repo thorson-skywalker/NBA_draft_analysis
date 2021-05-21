@@ -22,8 +22,11 @@ SELECT ssn."Player",
 	ssn."BPG",
 	ssn."PPG",
 	dft."Pk",
-	dft."Player"
+	dft."Player1"
+INTO "2018MBB_StatsAndDraft"
 FROM "2017-18_MBB_SeasonStats" as ssn
 LEFT JOIN "2018_Draft_Results" as dft
-ON ssn."Player" = dft."Player"
+ON ssn."Player" = dft."Player1"
 ORDER BY dft."Pk"
+
+SELECT * FROM "2018MBB_StatsAndDraft";
