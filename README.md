@@ -1,7 +1,7 @@
 # NBA_draft_analysis
 
 ## Purpose
-An analysis of college basketball statistics and their potential influence on getting drafted into the NBA.
+An analysis of college basketball statistics and their influence on getting selected in the NBA draft.
 
 ## Responsibilities Due by 5/23:
     Luke - README/GitHub
