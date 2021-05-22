@@ -1,4 +1,6 @@
 # NBA_draft_analysis
+
+## Purpose
 An analysis of college basketball statistics and their potential influence on getting drafted into the NBA.
 
 ## Responsibilities Due by 5/23:
@@ -11,6 +13,5 @@ An analysis of college basketball statistics and their potential influence on ge
     "This set of statistics (TBA)" can be used to determine the probability that a college player will be drafted into the NBA.
 
 ## Data Sources
-- https://www.basketball-reference.com/draft/NBA_2020.html
-- http://web1.ncaa.org/stats/StatsSrv/rankings?doWhat=archive&rpt=archive&sportCode=MBB
-- https://basketball.realgm.com/ncaa/stats/2018/Averages/Qualified/All/Season/All/points/desc/1/
+- [College Statistics](https://basketball.realgm.com/ncaa/stats/2018/Averages/Qualified/All/Season/All/points/desc/1/)
+- [2018 NBA Draft Results](https://www.basketball-reference.com/draft/NBA_2018.html)
