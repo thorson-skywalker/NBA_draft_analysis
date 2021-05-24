@@ -9,6 +9,12 @@ An analysis of college basketball statistics and their influence on getting sele
     Brady - Logistic Regression Model
     Brooks - Gather sample datasets/ estimate framework
 
+## Communication Protocol
+
+- Primary Form of Communication: Slack
+- Meetings on Mondays and Wednesdays 7:00pm - 9:00pm
+- Meetings between memebers regarding collaboration on related segments to be setup as needed through slack.
+
 ## Hypothesis
     "This set of statistics (TBA)" can be used to determine the probability that a college player will be drafted into the NBA.
 
