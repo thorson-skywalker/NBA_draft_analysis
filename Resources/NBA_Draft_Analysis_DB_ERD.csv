@@ -1,6 +1,7 @@
 combined_stats_data
 -
-Player varchar pk FK - combined_draft_data.Player1
+"#" int pk
+Player varchar FK - combined_draft_data.Player1
 Team varchar
 GP numeric
 MPG numeric
@@ -25,7 +26,12 @@ PPG numeric
 
 combined_draft_data
 -
-Pk int pk
+Pk int
 Tm varchar
-Player1 varchar
+Player1 varchar pk
 College varchar
+
+college_conference_data
+-
+College_Team varchar pk FK - combined_stats_data.Team
+Conference varchar FK
