@@ -1,5 +1,6 @@
--- Joining 2017-18_MBB_SeasonStats and 2018_Draft_Results tables
-SELECT ssn."Player",
+-- Joining MBB_Season_Stats and NBA_Draft_Results tables
+SELECT ssn."#",
+	ssn."Player",
 	ssn."Team",
 	ssn."GP",
 	ssn."MPG",
@@ -23,10 +24,10 @@ SELECT ssn."Player",
 	ssn."PPG",
 	dft."Pk",
 	dft."Player1"
-INTO "2018MBB_StatsAndDraft"
-FROM "2017-18_MBB_SeasonStats" as ssn
-LEFT JOIN "2018_Draft_Results" as dft
+INTO "MBB_StatsAndDraft"
+FROM "MBB_Season_Stats" as ssn
+LEFT JOIN "NBA_Draft_Results" as dft
 ON ssn."Player" = dft."Player1"
 ORDER BY dft."Pk"
 
-SELECT * FROM "2018MBB_StatsAndDraft";
+SELECT * FROM "MBB_StatsAndDraft";

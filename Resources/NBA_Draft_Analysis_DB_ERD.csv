@@ -1,0 +1,37 @@
+combined_stats_data
+-
+"#" int pk
+Player varchar FK - combined_draft_data.Player1
+Team varchar
+GP numeric
+MPG numeric
+FGM numeric
+FGA numeric
+FG% numeric
+3PM numeric
+3PA numeric
+3P% numeric
+FTM numeric
+FTA numeric
+FT% numeric
+TOV numeric
+PF numeric
+ORB numeric
+DRB numeric
+RPG numeric
+APG numeric
+SPG numeric
+BPG numeric
+PPG numeric
+
+combined_draft_data
+-
+Pk int
+Tm varchar
+Player1 varchar pk
+College varchar
+
+college_conference_data
+-
+College_Team varchar pk FK - combined_stats_data.Team
+Conference varchar FK
