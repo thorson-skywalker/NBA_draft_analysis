@@ -3,7 +3,7 @@ CREATE TABLE "07-19_NBA_Draft_Results" (
    Tm VARCHAR NULL,
    Player1 VARCHAR NULL,
    College VARCHAR NULL,
-	Year INT NULL
+	Draft_Year INT NULL
 );
 SELECT * FROM "07-19_NBA_Draft_Results";
 
@@ -12,7 +12,7 @@ CREATE TABLE "07-20_NBA_Draft_Results" (
    Tm VARCHAR NULL,
    Player1 VARCHAR NULL,
    College VARCHAR NULL,
-	Year INT NULL
+	Draft_Year INT NULL
 );
 SELECT * FROM "07-20_NBA_Draft_Results";
 
@@ -40,7 +40,7 @@ CREATE TABLE "07-19_MBB_Season_Stats" (
    SPG NUMERIC NULL,
    BPG NUMERIC NULL,
    PPG NUMERIC NULL,
-	Year INT NULL
+	Season_Year INT NULL
 );
 SELECT * FROM "07-19_MBB_Season_Stats";
 
@@ -68,7 +68,7 @@ CREATE TABLE "07-20_MBB_Season_Stats" (
    SPG NUMERIC NULL,
    BPG NUMERIC NULL,
    PPG NUMERIC NULL,
-	Year INT NULL
+	Season_Year INT NULL
 );
 SELECT * FROM "07-20_MBB_Season_Stats";
 
@@ -96,9 +96,10 @@ CREATE TABLE "07-19_MBB_StatsAndDraft" (
    SPG NUMERIC NULL,
    BPG NUMERIC NULL,
    PPG NUMERIC NULL,
+   Season_Year INT NULL,
    Pk INT NULL,
    Player1 VARCHAR NULL,
-	Year INT NULL
+	Draft_Year INT NULL
 );
 
 
@@ -126,7 +127,8 @@ CREATE TABLE "07-20_MBB_StatsAndDraft" (
    SPG NUMERIC NULL,
    BPG NUMERIC NULL,
    PPG NUMERIC NULL,
+   Season_Year INT NULL,
    Pk INT NULL,
    Player1 VARCHAR NULL,
-	Year INT NULL
+	Draft_Year INT NULL
 );
