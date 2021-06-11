@@ -1,7 +1,7 @@
-combined_stats_data
+MBB_Season_Stats
 -
 "#" int pk
-Player varchar FK - combined_draft_data.Player1
+Player varchar FK - NBA_Draft_Results.Player1
 Team varchar
 GP numeric
 MPG numeric
@@ -23,15 +23,74 @@ APG numeric
 SPG numeric
 BPG numeric
 PPG numeric
+Season_Year int
 
-combined_draft_data
+NBA_Draft_Results
 -
 Pk int
 Tm varchar
 Player1 varchar pk
 College varchar
+Draft_Year int
 
-college_conference_data
+NCAA_conference_data
 -
-College_Team varchar pk FK - combined_stats_data.Team
-Conference varchar FK
+Team varchar pk FK - MBB_Season_Stats.Team
+Conf varchar FK
+
+MBB_StatsAndDraft
+-
+"#" int
+Player varchar
+Team varchar
+GP numeric
+MPG numeric
+FGM numeric
+FGA numeric
+FG% numeric
+3PM numeric
+3PA numeric
+3P% numeric
+FTM numeric
+FTA numeric
+FT% numeric
+TOV numeric
+PF numeric
+ORB numeric
+DRB numeric
+RPG numeric
+APG numeric
+SPG numeric
+BPG numeric
+PPG numeric
+Season_Year int
+Pk int
+Player1 varchar
+Draft_Year int
+
+2021_MBB_StatsAndDraft
+-
+"#" int
+Player varchar pk
+Team varchar
+GP numeric
+MPG numeric
+FGM numeric
+FGA numeric
+FG% numeric
+3PM numeric
+3PA numeric
+3P% numeric
+FTM numeric
+FTA numeric
+FT% numeric
+TOV numeric
+PF numeric
+ORB numeric
+DRB numeric
+RPG numeric
+APG numeric
+SPG numeric
+BPG numeric
+PPG numeric
+Season_Year int
