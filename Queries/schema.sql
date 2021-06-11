@@ -21,9 +21,18 @@ CREATE TABLE "19-20_NBA_Draft_Results" (
    Tm VARCHAR NULL,
    Player1 VARCHAR NULL,
    College VARCHAR NULL,
-	Draft_Year INT NULL
 );
 SELECT * FROM "19-20_NBA_Draft_Results";
+
+---------------------------------------------------
+
+CREATE TABLE "NCAA_conference_data" (
+	TEAM VARCHAR NULL,
+   CONF VARCHAR NULL
+);
+SELECT * FROM "NCAA_conference_data";
+
+---------------------------------------------------
 
 CREATE TABLE "07-19_MBB_Season_Stats" (
 	"#" INT NULL,
@@ -105,7 +114,6 @@ CREATE TABLE "19-20_MBB_Season_Stats" (
    SPG NUMERIC NULL,
    BPG NUMERIC NULL,
    PPG NUMERIC NULL,
-	Season_Year INT NULL
 );
 SELECT * FROM "19-20_MBB_Season_Stats";
 
@@ -136,6 +144,8 @@ CREATE TABLE "20-21_MBB_Season_Stats" (
 	Season_Year INT NULL
 );
 SELECT * FROM "19-21_MBB_Season_Stats";
+
+---------------------------------------------------
 
 CREATE TABLE "07-19_MBB_StatsAndDraft" (
 	"#" INT NULL,

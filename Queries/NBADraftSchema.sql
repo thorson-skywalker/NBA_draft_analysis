@@ -70,3 +70,38 @@ ON ssn."player" = dft."player1"
 ORDER BY dft."pk"
 
 SELECT * FROM "07-20_MBB_StatsAndDraft";
+
+
+-- Joining 19-20_MBB_Season_Stats and 19-20_NBA_Draft_Results tables
+SELECT ssn."#",
+	ssn."player",
+	ssn."team",
+	ssn."gp",
+	ssn."mpg",
+	ssn."fgm",
+	ssn."fga",
+	ssn."FG%",
+	ssn."3PM",
+	ssn."3PA",
+	ssn."3P%",
+	ssn."ftm",
+	ssn."fta",
+	ssn."FT%",
+	ssn."tov",
+	ssn."pf",
+	ssn."orb",
+	ssn."drb",
+	ssn."rpg",
+	ssn."apg",
+	ssn."spg",
+	ssn."bpg",
+	ssn."ppg",
+	dft."Pk",
+	dft."Player1"
+INTO "19-20_MBB_StatsAndDraft"
+FROM "19-20_MBB_Season_Stats" as ssn
+LEFT JOIN "19-20_NBA_Draft_Results" as dft
+ON ssn."player" = dft."Player1"
+ORDER BY dft."Pk"
+
+SELECT * FROM "19-20_MBB_StatsAndDraft";
