@@ -16,6 +16,24 @@ CREATE TABLE "07-20_NBA_Draft_Results" (
 );
 SELECT * FROM "07-20_NBA_Draft_Results";
 
+CREATE TABLE "19-20_NBA_Draft_Results" (
+	Pk INT NULL,
+   Tm VARCHAR NULL,
+   Player1 VARCHAR NULL,
+   College VARCHAR NULL,
+);
+SELECT * FROM "19-20_NBA_Draft_Results";
+
+---------------------------------------------------
+
+CREATE TABLE "NCAA_conference_data" (
+	TEAM VARCHAR NULL,
+   CONF VARCHAR NULL
+);
+SELECT * FROM "NCAA_conference_data";
+
+---------------------------------------------------
+
 CREATE TABLE "07-19_MBB_Season_Stats" (
 	"#" INT NULL,
    Player VARCHAR NULL,
@@ -71,6 +89,63 @@ CREATE TABLE "07-20_MBB_Season_Stats" (
 	Season_Year INT NULL
 );
 SELECT * FROM "07-20_MBB_Season_Stats";
+
+CREATE TABLE "19-20_MBB_Season_Stats" (
+	"#" INT NULL,
+   Player VARCHAR NULL,
+   Team VARCHAR NULL,
+   GP NUMERIC NULL,
+   MPG NUMERIC NULL,
+   FGM NUMERIC NULL,
+   FGA NUMERIC NULL,
+   "FG%" NUMERIC NULL,
+   "3PM" NUMERIC NULL,
+   "3PA" NUMERIC NULL,
+   "3P%" NUMERIC NULL,
+   FTM NUMERIC NULL,
+   FTA NUMERIC NULL,
+   "FT%" NUMERIC NULL,
+   TOV NUMERIC NULL,
+   PF NUMERIC NULL,
+   ORB NUMERIC NULL,
+   DRB NUMERIC NULL,
+   RPG NUMERIC NULL,
+   APG NUMERIC NULL,
+   SPG NUMERIC NULL,
+   BPG NUMERIC NULL,
+   PPG NUMERIC NULL,
+);
+SELECT * FROM "19-20_MBB_Season_Stats";
+
+CREATE TABLE "20-21_MBB_Season_Stats" (
+	"#" INT NULL,
+   Player VARCHAR NULL,
+   Team VARCHAR NULL,
+   GP NUMERIC NULL,
+   MPG NUMERIC NULL,
+   FGM NUMERIC NULL,
+   FGA NUMERIC NULL,
+   "FG%" NUMERIC NULL,
+   "3PM" NUMERIC NULL,
+   "3PA" NUMERIC NULL,
+   "3P%" NUMERIC NULL,
+   FTM NUMERIC NULL,
+   FTA NUMERIC NULL,
+   "FT%" NUMERIC NULL,
+   TOV NUMERIC NULL,
+   PF NUMERIC NULL,
+   ORB NUMERIC NULL,
+   DRB NUMERIC NULL,
+   RPG NUMERIC NULL,
+   APG NUMERIC NULL,
+   SPG NUMERIC NULL,
+   BPG NUMERIC NULL,
+   PPG NUMERIC NULL,
+	Season_Year INT NULL
+);
+SELECT * FROM "19-21_MBB_Season_Stats";
+
+---------------------------------------------------
 
 CREATE TABLE "07-19_MBB_StatsAndDraft" (
 	"#" INT NULL,
