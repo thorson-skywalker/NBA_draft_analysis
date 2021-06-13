@@ -16,6 +16,23 @@ Using the training and test sets created during preprocessing, the model was per
 
 This week, however, draft data 2020 was removed entirely from the training data to be used as a test. After multiple iterations finding the best `RandomForestClassifier` parameters, the best accuracy score achieved using the 2020 draft data as a test was 0.95, which is still acceptable. However, for predicting players who would be drafted, the precision and recall dropped to 0.15 and 0.28, respectively. This indicates that in its current stage, the model is unable to reliably predict that a player will be drafted, but, due to the low number of false negatives (28 of 2000 data points), it can tell a prospective player if he has very little chance of being drafted.
 
+### Using the Model
+
+The most recent versions of the Random Forest, Logistic Regression, SVM, and Gradient Boosting models are saved in the `ML` directory within the main folder of the project. At the time of writing, the model `gb_2007_2019.sav` is the model with the least number of false positives and should be used. To use within a file saved in the main project directory:
+
+```py
+import pickle
+
+# Load the trained model
+rel_file_path = './ML/gb_2007_2019.sav'
+model = pickle.load(open(rel_file_path, 'rb'))
+
+# Make predictions on single player
+# The input of this is a dataframe with a row for each player to be predicted
+predictions = model.predict(player_data_df)
+```
+Calling `predictions` will then return a ndarray in which the first value is either a 1 (indicating the player has a chance of being drafted) or a 0 (indicating the player has very little chance of being drafted).
+
 ## Week 2: Machine Learning (06/06/2021)
 
 ### Deliverables for ML Model:
