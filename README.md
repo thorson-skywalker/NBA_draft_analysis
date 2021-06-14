@@ -26,6 +26,10 @@ An analysis of college basketball statistics and their influence on getting sele
 ## Hypothesis
 > A college basketball player's season statistics can be used to determine whether or not that athlete will be drafted into the NBA.
 
+## Presentation
+
+[Google Slides](https://docs.google.com/presentation/d/1axGv6Pm4fon6xYLTXVXtWeYSV64yRAL0FVUgOXtctLQ/edit?usp=sharing)
+
 ## Data Sources
 - [College Statistics](https://basketball.realgm.com/ncaa/stats/2018/Averages/Qualified/All/Season/All/points/desc/1/)
 - [2018 NBA Draft Results](https://www.basketball-reference.com/draft/NBA_2018.html)
