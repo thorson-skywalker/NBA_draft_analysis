@@ -18,20 +18,20 @@ This week, however, draft data 2020 was removed entirely from the training data 
 
 ### Using the Model
 
-The most recent versions of the Random Forest, Logistic Regression, SVM, and Gradient Boosting models are saved in the `ML` directory within the main folder of the project. At the time of writing, the model `gb_2007_2019.sav` is the model with the least number of false positives and should be used. To use within a file saved in the main project directory:
+The most recent versions of the Random Forest, Logistic Regression, SVM, and Gradient Boosting models are saved in the `ML` directory within the main folder of the project. At the time of writing, the model `lr_2007_2019.sav` is the model with the least number of false positives and should be used. To use within a file saved in the main project directory:
 
 ```py
 import pickle
 
 # Load the trained model
-rel_file_path = './ML/gb_2007_2019.sav'
+rel_file_path = './ML/lr_2007_2019.sav'
 model = pickle.load(open(rel_file_path, 'rb'))
 
 # Make predictions on single player
 # The input of this is a dataframe with a row for each player to be predicted
-predictions = model.predict(player_data_df)
+prediction = model.predict(player_data_df)
 ```
-Calling `predictions` will then return a ndarray in which the first value is either a 1 (indicating the player has a chance of being drafted) or a 0 (indicating the player has very little chance of being drafted).
+Calling `prediction` will then return a ndarray in which the first value is either a 1 (indicating the player has a chance of being drafted) or a 0 (indicating the player has very little chance of being drafted).
 
 ## Week 2: Machine Learning (06/06/2021)
 
