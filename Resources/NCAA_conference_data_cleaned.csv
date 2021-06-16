@@ -4,17 +4,17 @@ Baylor,B12
 Illinois,B10
 Gonzaga,WCC
 Iowa,B10
-Ohio St.,B10
+Ohio State,B10
 Houston,Amer
 Alabama,SEC
 West Virginia,B12
 Texas,B12
 Kansas,B12
 Arkansas,SEC
-Florida St.,ACC
+Florida State,ACC
 Virginia,ACC
 Purdue,B10
-Oklahoma St.,B12
+Oklahoma State,B12
 Villanova,BE
 Tennessee,SEC
 Creighton,BE
@@ -22,71 +22,71 @@ Colorado,P12
 Texas Tech,B12
 BYU,WCC
 USC,P12
-San Diego St.,MWC
+San Diego State,MWC
 Florida,SEC
-Connecticut,BE
+UConn,BE
 Clemson,ACC
 Oregon,P12
 Oklahoma,B12
-North Carolina,ACC
+UNC,ACC
 LSU,SEC
 Loyola Chicago,MVC
 St. Bonaventure,A10
 Missouri,SEC
 Wisconsin,B10
 Georgia Tech,ACC
-Rutgers,B10
+Rutgers University,B10
 Virginia Tech,ACC
 Maryland,B10
 VCU,A10
-Michigan St.,B10
-Wichita St.,Amer
+Michigan State,B10
+Wichita State,Amer
 Syracuse,ACC
 UCLA,P12
-Utah St.,MWC
+Utah State University,MWC
 Drake,MVC
 Georgetown,BE
-Oregon St.,P12
+Oregon State,P12
 UC Santa Barbara,BW
 Winthrop,BSth
 Ohio,MAC
-North Texas,CUSA
+University of North Texas,CUSA
 UNC Greensboro,SC
 Liberty,ASun
 Colgate,Pat
 Eastern Washington,BSky
 Abilene Christian,Slnd
-Morehead St.,OVC
+Morehead State University,OVC
 Iona,MAAC
 Oral Roberts,Sum
 Grand Canyon,WAC
-Cleveland St.,Horz
+Cleveland State University,Horz
 Drexel,CAA
 Mount St. Mary's,NEC
 Hartford,AE
-Norfolk St.,MEAC
+Norfolk State,MEAC
 Texas Southern,SWAC
-Appalachian St.,SB
+Appalachian State,SB
 Howard,MEAC
-South Carolina St.,MEAC
+South Carolina State,MEAC
 Idaho,BSky
 Maine,AE
 Fordham,A10
 Denver,Sum
-Iowa St.,B12
-Mississippi Valley St.,SWAC
+Iowa State,B12
+Mississippi Valley State,SWAC
 San Diego,WCC
 Northern Illinois,MAC
-Delaware St.,MEAC
+Delaware State,MEAC
 Charleston Southern,BSth
 American,Pat
 Lehigh,Pat
 Binghamton,AE
 Towson,CAA
-Alabama St.,SWAC
+Alabama State,SWAC
 Robert Morris,Horz
 Boston College,ACC
-Tennessee St.,OVC
+Tennessee State,OVC
 Cal Poly,BW
 Arkansas Pine Bluff,SWAC
 Bucknell,Pat
@@ -97,31 +97,31 @@ George Washington,A10
 DePaul,BE
 Saint Joseph's,A10
 Western Michigan,MAC
-San Jose St.,MWC
+San Jose State,MWC
 Central Connecticut,NEC
 USC Upstate,BSth
 Middle Tennessee,CUSA
-Kennesaw St.,ASun
+Kennesaw State,ASun
 Central Arkansas,Slnd
 Texas A&M Corpus Chris,Slnd
 Air Force,MWC
 Nebraska Omaha,Sum
 Washington,P12
-Tennessee Tech,OVC
+Tennessee Technological University,OVC
 Alabama A&M,SWAC
-Cal St. Fullerton,BW
+Cal State Fullerton,BW
 Loyola MD,Pat
-Long Beach St.,BW
+Cal State Long Beach,BW
 Eastern Michigan,MAC
 Samford,SC
-Alcorn St.,SWAC
+Alcorn State,SWAC
 South Carolina,SEC
 Portland,WCC
 Wake Forest,ACC
 Northern Arizona,BSky
 New Mexico,MWC
 St. Francis PA,NEC
-Rider,MAAC
+Rider University,MAAC
 Houston Baptist,Slnd
 Canisius,MAAC
 Delaware,CAA
@@ -135,21 +135,21 @@ Manhattan,MAAC
 Presbyterian,BSth
 Western Illinois,Sum
 Central Michigan,MAC
-Illinois St.,MVC
+Illinois State,MVC
 Louisiana Monroe,SB
 Nebraska,B10
-Massachusetts,A10
+UMass,A10
 IUPUI,Horz
 Texas A&M,SEC
 East Carolina,Amer
 Southern,SWAC
-Sacramento St.,BSky
+Sacramento State,BSky
 Florida A&M,MEAC
-Dixie St.,WAC
+Dixie State,WAC
 Incarnate Word,Slnd
 North Florida,ASun
 Fort Wayne,Horz
-Tennessee Martin,OVC
+University of Tennessee at Martin,OVC
 Southern Miss,CUSA
 Green Bay,Horz
 Southeastern Louisiana,Slnd
@@ -164,11 +164,11 @@ St. Francis NY,NEC
 UT Rio Grande Valley,WAC
 Niagara,MAAC
 South Florida,Amer
-Portland St.,BSky
-Cal St. Northridge,BW
+Portland State,BSky
+Cal State Northridge,BW
 Illinois Chicago,Horz
 Quinnipiac,MAAC
-Coppin St.,MEAC
+Coppin State,MEAC
 Stony Brook,AE
 Northwestern,B10
 High Point,BSth
@@ -182,7 +182,7 @@ FIU,CUSA
 SIU Edwardsville,OVC
 North Dakota,Sum
 Eastern Illinois,OVC
-Kansas St.,B12
+Kansas State,B12
 California,P12
 Vermont,AE
 Florida Gulf Coast,ASun
@@ -191,17 +191,17 @@ New Hampshire,AE
 Northeastern,CAA
 Elon,CAA
 UNC Asheville,BSth
-Tarleton St.,WAC
-Pittsburgh,ACC
+Tarleton State,WAC
+Pitt,ACC
 Milwaukee,Horz
 Tulane,Amer
-Ball St.,MAC
-McNeese St.,Slnd
+Ball State,MAC
+McNeese State,Slnd
 Rhode Island,A10
 Butler,BE
 Northern Iowa,MVC
 New Orleans,Slnd
-Miami FL,ACC
+Miami (FL),ACC
 Fairfield,MAAC
 Valparaiso,MVC
 Lamar,Slnd
@@ -211,37 +211,37 @@ North Carolina A&T,MEAC
 Northern Colorado,BSky
 Utah Valley,WAC
 UMass Lowell,AE
-UCF,Amer
+Central Florida,Amer
 Tulsa,Amer
 Jacksonville,ASun
-Arkansas St.,SB
+Arkansas State,SB
 UMKC,Sum
-Penn St.,B10
+Penn State,B10
 Stetson,ASun
 Hampton,BSth
-Arizona St.,P12
+Arizona State,P12
 San Francisco,WCC
 Notre Dame,ACC
 Gardner Webb,BSth
 Little Rock,SB
-Southeast Missouri St.,OVC
+Southeast Missouri State,OVC
 Western Carolina,SC
 Troy,SB
-Northwestern St.,Slnd
+Northwestern State,Slnd
 Siena,MAAC
-Jackson St.,SWAC
+Jackson State,SWAC
 Monmouth,MAAC
-New Mexico St.,WAC
+New Mexico State,WAC
 Santa Clara,WCC
-Marist,MAAC
+Marist College,MAAC
 Army,Pat
-Detroit,Horz
+Detroit Mercy,Horz
 Cincinnati,Amer
 Miami OH,MAC
 Seattle,WAC
-UTEP,CUSA
-Fresno St.,MWC
-Grambling St.,SWAC
+Texas-El Paso,CUSA
+Fresno State,MWC
+Grambling State,SWAC
 Pepperdine,WCC
 Utah,P12
 TCU,B12
@@ -251,20 +251,20 @@ UNLV,MWC
 Longwood,BSth
 Bradley,MVC
 Oakland,Horz
-Chicago St.,WAC
-North Carolina St.,ACC
-Montana St.,BSky
+Chicago State,WAC
+NC State,ACC
+Montana State,BSky
 Hofstra,CAA
 Florida Atlantic,CUSA
 Cal Baptist,WAC
 Duke,ACC
 North Alabama,ASun
-Idaho St.,BSky
-East Tennessee St.,SC
+Idaho State,BSky
+East Tennessee State,SC
 VMI,SC
 The Citadel,SC
 Providence,BE
-Murray St.,OVC
+Murray State,OVC
 Georgia Southern,SB
 UT Arlington,SB
 Marquette,BE
@@ -287,58 +287,58 @@ Georgia,SEC
 Seton Hall,BE
 Austin Peay,OVC
 Stanford,P12
-Washington St.,P12
+Washington State,P12
 Minnesota,B10
 Saint Louis,A10
 UMBC,AE
 UC Riverside,BW
-Morgan St.,MEAC
+Morgan State,MEAC
 Dayton,A10
 Saint Mary's,WCC
-Indiana St.,MVC
+Indiana State,MVC
 Cal St. Bakersfield,BW
 UTSA,CUSA
 Lipscomb,ASun
 Radford,BSth
-Youngstown St.,Horz
-North Dakota St.,Sum
+Youngstown State,Horz
+North Dakota State,Sum
 Montana,BSky
-Rice,CUSA
-Mississippi St.,SEC
+Rice University,CUSA
+Mississippi State,SEC
 Navy,Pat
 Bryant,NEC
 Marshall,CUSA
 Old Dominion,CUSA
 Akron,MAC
-Kent St.,MAC
+Kent State,MAC
 Wofford,SC
 Nevada,MWC
-Mississippi,SEC
+Ole Miss,SEC
 St. John's,BE
 Stephen F. Austin,Slnd
 Prairie View A&M,SWAC
-Georgia St.,SB
+Georgia State University,SB
 Coastal Carolina,SB
-South Dakota St.,Sum
+South Dakota State,Sum
 Memphis,Amer
 Buffalo,MAC
 Furman,SC
 Campbell,BSth
 South Alabama,SB
-Weber St.,BSky
-Missouri St.,MVC
+Weber State,BSky
+Missouri State,MVC
 Arizona,P12
-Louisiana Lafayette,SB
+Louisiana,SB
 Mercer,SC
-Wright St.,Horz
-Colorado St.,MWC
-Texas St.,SB
-Nicholls St.,Slnd
-Boise St.,MWC
+Wright State,Horz
+Colorado State,MWC
+Texas State,SB
+Nicholls State,Slnd
+Boise State,MWC
 Chattanooga,SC
 UC Irvine,BW
-Jacksonville St.,OVC
-Sam Houston St.,Slnd
+Jacksonville State,OVC
+Sam Houston State,Slnd
 Southern Utah,BSky
 Western Kentucky,CUSA
 Louisiana Tech,CUSA
@@ -346,3 +346,6 @@ Toledo,MAC
 UAB,CUSA
 Eastern Kentucky,OVC
 Belmont,OVC
+Yale,IVY
+John A. Logan College,GRAC
+Brigham Young University Hawaii,PWC

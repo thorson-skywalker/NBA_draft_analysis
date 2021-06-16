@@ -1,0 +1,680 @@
+pk,tm,player1,college,conf
+56,DAL,Ahmad Nivins,Saint Joseph's,A10
+15,MIL,Larry Sanders,VCU,A10
+21,ATL,DeAndre' Bembry,Saint Joseph's,A10
+8,NYK,Obi Toppin,Dayton,A10
+20,UTA,Eric Maynor,VCU,A10
+7,GSW,Stephen Curry,Davidson,A10
+60,PHI,Kostas Antetokounmpo,Dayton,A10
+46,GSW,Stéphane Lasme,UMass,A10
+32,CLE,Justin Harper,Richmond,A10
+19,ORL,Andrew Nicholson,St. Bonaventure,A10
+55,SAS,Cady Lalanne,UMass,A10
+24,OKC,Reggie Jackson,Boston College,ACC
+41,BRK,Pat Connaughton,Notre Dame,ACC
+57,IND,Ryan Reid,Florida State,ACC
+21,POR,Nolan Smith,Duke,ACC
+48,LAC,Terance Mann,Florida State,ACC
+60,PHO,Dwayne Collins,Miami (FL),ACC
+1,CLE,Kyrie Irving,Duke,ACC
+54,IND,Cassius Stanley,Duke,ACC
+18,WAS,Chris Singleton,Florida State,ACC
+17,NYK,Iman Shumpert,Georgia Tech,ACC
+37,POR,Josh McRoberts,Duke,ACC
+36,MIN,Rakeem Christmas,Syracuse,ACC
+14,LAC,Al Thornton,Florida State,ACC
+55,BRK,Marcus Paige,UNC,ACC
+32,HOU,Montrezl Harrell,Louisville,ACC
+29,BRK,Chris McCullough,Syracuse,ACC
+25,LAC,Brice Johnson,UNC,ACC
+24,CLE,Tyus Jones,Duke,ACC
+3,BOS,Jayson Tatum,Duke,ACC
+21,DAL,Justin Anderson,Virginia,ACC
+19,WAS,Jerian Grant,Notre Dame,ACC
+6,ORL,Jonathan Isaac,Florida State,ACC
+28,MEM,Donté Greene,Syracuse,ACC
+9,DAL,Dennis Smith Jr.,NC State,ACC
+16,BOS,Terry Rozier,Louisville,ACC
+13,LAC,Jerome Robinson,Boston College,ACC
+12,DET,Luke Kennard,Duke,ACC
+13,DEN,Donovan Mitchell,Louisville,ACC
+2,SAC,Marvin Bagley III,Duke,ACC
+15,POR,Justin Jackson,UNC,ACC
+10,MIA,Justise Winslow,Duke,ACC
+18,SAS,Lonnie Walker,Miami (FL),ACC
+2,LAL,Brandon Ingram,Duke,ACC
+19,ATL,John Collins,Wake Forest,ACC
+20,POR,Harry Giles,Duke,ACC
+3,PHI,Jahlil Okafor,Duke,ACC
+58,PHI,J.P. Tokoto,UNC,ACC
+24,UTA,Tyler Lydon,Syracuse,ACC
+19,DEN,Malik Beasley,Florida State,ACC
+28,LAL,Tony Bradley,UNC,ACC
+37,SAC,Gary Trent Jr.,Duke,ACC
+48,MIL,Lamar Patterson,Pitt,ACC
+31,CHO,Frank Jackson,Duke,ACC
+32,PHO,Davon Reed,Miami (FL),ACC
+47,PHI,Russ Smith,Louisville,ACC
+12,PHI,Thaddeus Young,Georgia Tech,ACC
+39,PHI,Jerami Grant,Syracuse,ACC
+42,DET,Bruce Brown,Miami (FL),ACC
+40,NOP,Dwayne Bacon,Florida State,ACC
+39,NOP,Elijah Hughes,Syracuse,ACC
+17,DAL,Tyler Zeller,UNC,ACC
+13,PHO,Kendall Marshall,UNC,ACC
+10,NOH,Austin Rivers,Duke,ACC
+38,NYK,Andy Rautins,Syracuse,ACC
+7,GSW,Harrison Barnes,UNC,ACC
+4,CLE,Dion Waiters,Syracuse,ACC
+46,PHO,Gani Lawal,Georgia Tech,ACC
+44,ORL,Reyshawn Terry,UNC,ACC
+50,DAL,Solomon Alabi,Florida State,ACC
+33,DET,Kyle Singler,Duke,ACC
+52,BOS,Luke Harangody,Notre Dame,ACC
+4,LAL,De'Andre Hunter,Virginia,ACC
+51,BOS,Kris Joseph,Syracuse,ACC
+8,LAC,Al-Farouq Aminu,Wake Forest,ACC
+7,CHI,Coby White,UNC,ACC
+10,ATL,Cam Reddish,Duke,ACC
+43,ATL,Mike Scott,Virginia,ACC
+11,MIN,Cameron Johnson,UNC,ACC
+13,TOR,Ed Davis,UNC,ACC
+59,TOR,Dewan Hernandez,Miami (FL),ACC
+33,CLE,Bernard James,Florida State,ACC
+17,BRK,Nickeil Alexander-Walker,Virginia Tech,ACC
+24,PHI,Ty Jerome,Virginia,ACC
+25,POR,Nassir Little,UNC,ACC
+23,MIN,Trevor Booker,Clemson,ACC
+26,IND,Miles Plumlee,Duke,ACC
+49,CHI,Aaron Gray,Pitt,ACC
+22,BOS,Fab Melo,Syracuse,ACC
+42,UTA,Olivier Hanlan,Boston College,ACC
+55,NYK,Kyle Guy,Virginia,ACC
+27,BRK,Mfiondu Kabengele,Florida State,ACC
+14,MIL,John Henson,UNC,ACC
+17,NJN,Sean Williams,Boston College,ACC
+7,CHI,Wendell Carter Jr.,Duke,ACC
+59,SAS,Jaron Blossomgame,Clemson,ACC
+33,CLE,Joe Harris,Virginia,ACC
+32,PHI,K.J. McDaniels,Clemson,ACC
+26,MIA,P.J. Hairston,UNC,ACC
+42,SAC,Sean Singletary,Virginia,ACC
+23,UTA,Rodney Hood,Duke,ACC
+36,MIL,Malcolm Brogdon,Virginia,ACC
+18,PHO,Tyler Ennis,Syracuse,ACC
+19,LAL,Javaris Crittenton,Georgia Tech,ACC
+32,CHO,Vernon Carey Jr.,Duke,ACC
+14,PHO,T.J. Warren,NC State,ACC
+2,MIL,Jabari Parker,Duke,ACC
+37,HOU,Chinanu Onuaku,Louisville,ACC
+56,DET,Peyton Siva,Louisville,ACC
+52,MIN,Lorenzo Brown,NC State,ACC
+20,MIN,Josh Okogie,Georgia Tech,ACC
+48,LAL,Ryan Kelly,Duke,ACC
+59,DET,Deron Washington,Virginia Tech,ACC
+46,UTA,Erick Green,Virginia Tech,ACC
+53,OKC,Devon Hall,Virginia,ACC
+22,CHA,Jared Dudley,Boston College,ACC
+6,MIN,Jonny Flynn,Syracuse,ACC
+35,PHI,Glen Rice Jr.,Georgia Tech,ACC
+11,NJN,Terrence Williams,Louisville,ACC
+12,CHA,Gerald Henderson,Duke,ACC
+13,IND,Tyler Hansbrough,UNC,ACC
+14,PHO,Earl Clark,Louisville,ACC
+56,PHI,Ray Spalding,Louisville,ACC
+16,CHI,James Johnson,Wake Forest,ACC
+19,CLE,J.J. Hickson,NC State,ACC
+18,MIN,Ty Lawson,UNC,ACC
+19,ATL,Jeff Teague,Wake Forest,ACC
+53,POR,Demetris Nichols,Syracuse,ACC
+21,UTA,Grayson Allen,Duke,ACC
+41,SAS,Tre Jones,Duke,ACC
+28,MIN,Wayne Ellington,UNC,ACC
+29,LAL,Toney Douglas,Florida State,ACC
+45,BOS,Demetrius Jackson,Notre Dame,ACC
+25,LAC,Reggie Bullock,UNC,ACC
+45,MIL,Jordan Nwora,Louisville,ACC
+36,MEM,Sam Young,Pitt,ACC
+37,SAS,DeJuan Blair,Pitt,ACC
+22,BRK,Mason Plumlee,Duke,ACC
+21,UTA,Gorgui Dieng,Louisville,ACC
+18,ATL,Shane Larkin,Miami (FL),ACC
+15,ORL,Cole Anthony,UNC,ACC
+8,CHA,Brandan Wright,UNC,ACC
+11,SAS,Devin Vassell,Florida State,ACC
+46,CLE,Danny Green,UNC,ACC
+12,OKC,Steven Adams,Pitt,ACC
+51,SAS,Jack McClinton,Miami (FL),ACC
+11,PHI,Michael Carter-Williams,Syracuse,ACC
+1,NOP,Zion Williamson,Duke,ACC
+22,CHO,Malachi Richardson,Syracuse,ACC
+3,NYK,RJ Barrett,Duke,ACC
+4,CHI,Patrick Williams,Florida State,ACC
+49,DET,Michael Gbinije,Syracuse,ACC
+3,NJN,Derrick Favors,Georgia Tech,ACC
+4,MIN,Wesley Johnson,Syracuse,ACC
+34,NYK,Cleanthony Early,Wichita State,Amer
+28,GSW,Jacob Evans,Cincinnati,Amer
+46,PHI,Sterling Brown,SMU,Amer
+22,POR,Elliot Williams,Memphis,Amer
+25,MEM,Dominique Jones,South Florida,Amer
+33,POR,Joey Dorsey,Memphis,Amer
+50,PHI,Lavoy Allen,Temple,Amer
+40,NJN,Chris Douglas-Roberts,Memphis,Amer
+2,GSW,James Wiseman,Memphis,Amer
+4,SAC,Tyreke Evans,Memphis,Amer
+26,PHI,Landry Shamet,Wichita State,Amer
+37,BOS,Semi Ojeleye,SMU,Amer
+54,DAL,Shake Milton,SMU,Amer
+20,MIA,Precious Achiuwa,Memphis,Amer
+35,ORL,Melvin Frazier,Tulane,Amer
+40,POR,Will Barton,Memphis,Amer
+1,CHI,Derrick Rose,Memphis,Amer
+44,MIL,Jerome Jordan,Tulsa,Amer
+32,WAS,Jermaine Taylor,Central Florida,Amer
+60,MIA,Robert Dozier,Memphis,Amer
+40,IND,Lance Stephenson,Cincinnati,Amer
+4,MEM,Mike Conley,Ohio State,B10
+20,IND,Caris LeVert,Michigan,B10
+12,LAC,Miles Bridges,Michigan State,B10
+31,BOS,Deyonta Davis,Michigan State,B10
+40,NOP,Diamond Stone,Maryland,B10
+46,DAL,A.J. Hammons,Purdue,B10
+47,ORL,Jake Layman,Maryland,B10
+23,UTA,Kosta Koufos,Ohio State,B10
+4,MEM,Jaren Jackson Jr.,Michigan State,B10
+17,MIL,D.J. Wilson,Michigan,B10
+29,DET,D.J. White,Indiana,B10
+23,TOR,OG Anunoby,Indiana,B10
+26,POR,Caleb Swanigan,Purdue,B10
+42,UTA,Thomas Bryant,Indiana,B10
+35,SAC,Xavier Tillman Sr.,Michigan State,B10
+33,MIN,Daniel Oturu,Minnesota,B10
+21,PHI,Daequan Cook,Ohio State,B10
+57,SAS,James Gist,Maryland,B10
+14,CHI,Denzel Valentine,Michigan State,B10
+24,DAL,Byron Mullens,Ohio State,B10
+29,PHO,Alando Tucker,Wisconsin,B10
+31,SEA,Carl Landry,Purdue,B10
+50,UTA,Goran Suton,Michigan State,B10
+10,PHO,Jalen Smith,Maryland,B10
+2,PHI,Evan Turner,Ohio State,B10
+28,MEM,Greivis Vásquez,Maryland,B10
+56,MIN,Hamady N'Diaye,Rutgers University,B10
+53,OKC,Cassius Winston,Michigan State,B10
+27,NJN,JaJuan Johnson,Purdue,B10
+43,NOK,Adam Haluska,Iowa,B10
+36,NJN,Jordan Williams,Maryland,B10
+47,SAC,Ignas Brazdeikis,Michigan,B10
+40,MIL,Jon Leuer,Wisconsin,B10
+41,LAL,Darius Morris,Michigan,B10
+45,DET,Isaiah Roby,Nebraska,B10
+51,POR,Jon Diebler,Ohio State,B10
+55,BOS,E'Twaun Moore,Purdue,B10
+34,PHI,Bruno Fernando,Maryland,B10
+33,PHI,Carsen Edwards,Purdue,B10
+28,GSW,Jordan Poole,Michigan,B10
+11,POR,Meyers Leonard,Illinois,B10
+21,BOS,Jared Sullinger,Ohio State,B10
+1,POR,Greg Oden,Ohio State,B10
+35,GSW,Draymond Green,Michigan State,B10
+14,BOS,Romeo Langford,Indiana,B10
+58,MIN,Robbie Hummel,Purdue,B10
+2,ORL,Victor Oladipo,Indiana,B10
+4,CHA,Cody Zeller,Indiana,B10
+5,PHO,Alex Len,Maryland,B10
+9,MIN,Trey Burke,Michigan,B10
+24,NYK,Tim Hardaway Jr.,Michigan,B10
+52,UTA,Vince Edwards,Purdue,B10
+59,PHO,D.J. Strawberry,Maryland,B10
+51,NOP,Tony Carr,Penn State,B10
+58,SAS,Deshaun Thomas,Ohio State,B10
+8,SAC,Nik Stauskas,Michigan,B10
+9,CHH,Noah Vonleh,Indiana,B10
+48,MIN,Keita Bates-Diop,Ohio State,B10
+15,ATL,Adreian Payne,Michigan State,B10
+19,CHI,Gary Harris,Michigan State,B10
+21,OKC,Mitch McGary,Michigan,B10
+7,LAC,Eric Gordon,Indiana,B10
+43,DEN,Justin Jackson,Maryland,B10
+40,MIN,Glenn Robinson III,Michigan,B10
+56,DEN,Devyn Marble,Iowa,B10
+2,LAL,D'Angelo Russell,Ohio State,B10
+9,CHO,Frank Kaminsky,Wisconsin,B10
+18,HOU,Sam Dekker,Wisconsin,B10
+25,LAL,Moritz Wagner,Michigan,B10
+49,WAS,Aaron White,Iowa,B10
+56,NOP,Branden Dawson,Michigan State,B10
+19,ATL,Kevin Huerter,Maryland,B10
+11,IND,Myles Turner,Texas,B12
+58,BOS,Abdel Nader,Iowa State,B12
+54,PHI,Marial Shayok,Iowa State,B12
+16,HOU,Royce White,Iowa State,B12
+32,MIA,Dexter Pittman,Texas,B12
+43,SAC,Jahmi'us Ramsey,Texas Tech,B12
+24,ATL,Damion James,Texas,B12
+21,OKC,Craig Brackins,Iowa State,B12
+28,OKC,Perry Jones,Baylor,B12
+20,SAS,James Anderson,Oklahoma State,B12
+19,BOS,Avery Bradley,Texas,B12
+16,PHO,Zhaire Smith,Texas Tech,B12
+37,TOR,Quincy Acy,Baylor,B12
+38,DEN,Quincy Miller,Baylor,B12
+41,POR,Tyshawn Taylor,Kansas,B12
+12,MEM,Xavier Henry,Kansas,B12
+11,NOH,Cole Aldrich,Kansas,B12
+8,ATL,Jaxson Hayes,Texas,B12
+6,PHO,Jarrett Culver,Texas Tech,B12
+6,GSW,Ekpe Udoh,Baylor,B12
+7,SAC,Ben McLemore,Kansas,B12
+48,PHO,Taylor Griffin,Oklahoma,B12
+12,SAC,Tyrese Haliburton,Iowa State,B12
+51,CHI,JamesOn Curry,Oklahoma State,B12
+50,IND,Georges Niang,Iowa State,B12
+27,UTA,Udoka Azubuike,Kansas,B12
+39,POR,Jeff Withey,Kansas,B12
+42,PHI,Pierre Jackson,Baylor,B12
+1,LAC,Blake Griffin,Oklahoma,B12
+51,ORL,Romero Osby,Oklahoma,B12
+56,SEA,Sasha Kaun,Kansas,B12
+55,POR,Mike Taylor,Iowa State,B12
+1,CLE,Andrew Wiggins,Kansas,B12
+52,MIA,Darnell Jackson,Kansas,B12
+3,PHI,Joel Embiid,Kansas,B12
+30,BOS,Desmond Bane,TCU,B12
+6,BOS,Marcus Smart,Oklahoma State,B12
+2,MIA,Michael Beasley,Kansas State,B12
+47,LAL,Sviatoslav Mykhailiuk,Kansas,B12
+47,WAS,Henry Walker,Kansas State,B12
+33,LAC,Cheick Diallo,Kansas,B12
+2,SEA,Kevin Durant,Texas,B12
+51,DEN,Monte Morris,Iowa State,B12
+12,UTA,Taurean Prince,Baylor,B12
+39,PHI,Jawun Evans,Oklahoma State,B12
+8,MIL,Joe Alexander,West Virginia,B12
+34,MIN,Mario Chalmers,Kansas,B12
+9,CHA,D.J. Augustin,Texas,B12
+44,MIN,Markel Brown,Oklahoma State,B12
+34,SAC,Frank Mason III,Kansas,B12
+33,ORL,Wesley Iwundu,Kansas State,B12
+60,SAS,Cory Jefferson,Baylor,B12
+22,BRK,Jarrett Allen,Texas,B12
+34,ATL,Devonte' Graham,Kansas,B12
+13,NOK,Julian Wright,Kansas,B12
+6,NOP,Buddy Hield,Oklahoma,B12
+5,SAC,Thomas Robinson,Kansas,B12
+32,MEM,Jevon Carter,West Virginia,B12
+15,ATL,Kelly Oubre Jr.,Kansas,B12
+13,PHO,Markieff Morris,Kansas,B12
+14,HOU,Marcus Morris,Kansas,B12
+4,CLE,Tristan Thompson,Texas,B12
+26,DAL,Jordan Hamilton,Texas,B12
+5,DAL,Trae Young,Oklahoma,B12
+29,SAS,Cory Joseph,Texas,B12
+54,LAC,Willie Warren,Oklahoma,B12
+6,ORL,Mo Bamba,Texas,B12
+46,ORL,Talen Horton-Tucker,Iowa State,B12
+4,PHO,Josh Jackson,Kansas,B12
+47,MIL,Tiny Gallon,Oklahoma,B12
+49,MEM,Josh Selby,Kansas,B12
+43,LAL,Devin Ebanks,West Virginia,B12
+13,POR,Brandon Rush,Kansas,B12
+27,NOH,Darrell Arthur,Kansas,B12
+59,SAC,Isaiah Cousins,Oklahoma,B12
+42,MIA,Da'Sean Butler,West Virginia,B12
+15,PHI,Maurice Harkless,St. John's,BE
+25,BOS,MarShon Brooks,Providence,BE
+12,HOU,Jeremy Lamb,UConn,BE
+55,UTA,Herbert Hill,Providence,BE
+5,BOS,Jeff Green,Georgetown,BE
+43,MIL,Ricky Ledo,Providence,BE
+2,MEM,Hasheem Thabeet,UConn,BE
+33,DAL,Jalen Brunson,Villanova,BE
+33,POR,Dante Cunningham,Villanova,BE
+42,UTA,Isaiah Whitehead,Seton Hall,BE
+18,DET,Henry Ellenson,Marquette,BE
+35,DET,DaJuan Summers,Georgetown,BE
+40,CHA,Derrick Brown,Xavier,BE
+19,BRK,Saddiq Bey,Villanova,BE
+34,WAS,Shelvin Mack,Butler,BE
+5,MIN,Kris Dunn,Providence,BE
+52,IND,A.J. Price,UConn,BE
+17,TOR,Roy Hibbert,Georgetown,BE
+9,CHA,Kemba Walker,UConn,BE
+51,BOS,Ben Bentil,Providence,BE
+38,DET,Darrun Hilliard,Villanova,BE
+3,WAS,Otto Porter,Georgetown,BE
+55,DAL,Darius Johnson-Odom,Marquette,BE
+7,DET,Greg Monroe,Georgetown,BE
+9,UTA,Gordon Hayward,Butler,BE
+16,CHI,Justin Patton,Creighton,BE
+57,DET,Sammy Mejia,DePaul,BE
+11,DEN,Doug McDermott,Creighton,BE
+55,MIA,Semaj Christon,Xavier,BE
+30,UTA,Josh Hart,Villanova,BE
+53,CLE,Sir'Dominic Pointer,St. John's,BE
+34,CLE,Jae Crowder,Marquette,BE
+30,ATL,Omari Spellman,Villanova,BE
+59,ORL,Stanley Robinson,UConn,BE
+17,MIL,Donte DiVincenzo,Villanova,BE
+58,PHI,Paul Reed,DePaul,BE
+43,SAC,Patrick Ewing,Georgetown,BE
+24,CHH,Shabazz Napier,UConn,BE
+38,PHI,Khyri Thomas,Creighton,BE
+56,DEN,Daniel Hamilton,UConn,BE
+30,CHI,Jimmy Butler,Marquette,BE
+10,PHI,Mikal Bridges,Villanova,BE
+52,NOP,Edmond Sumner,Xavier,BE
+27,NJN,Jordan Crawford,Xavier,BE
+41,GSW,Eric Paschall,Villanova,BE
+23,NYK,Wilson Chandler,DePaul,BE
+30,WAS,Lazar Hayward,Marquette,BE
+37,TOR,DeAndre Daniels,UConn,BE
+9,DET,Andre Drummond,UConn,BE
+6,POR,Damian Lillard,Weber State,BSky
+15,DET,Rodney Stuckey,Eastern Washington,BSky
+51,ORL,Tyler Harvey,Eastern Washington,BSky
+52,UTA,Joel Bolomboy,Weber State,BSky
+36,SAC,Orlando Johnson,UC Santa Barbara,BW
+50,ATL,James Ennis,Cal State Long Beach,BW
+53,UTA,Justin Wright-Foreman,Hofstra,CAA
+46,LAL,Andrew Goudelock,College of Charleston,CAA
+56,CHO,Grant Riller,College of Charleston,CAA
+45,BOS,Marcus Thornton,William & Mary,CAA
+50,IND,Jarrell Brantley,College of Charleston,CAA
+44,GSW,Charles Jenkins,Hofstra,CAA
+25,UTA,Morris Almond,Rice University,CUSA
+37,DET,Tony Mitchell,University of North Texas,CUSA
+58,LAL,Derrick Caracter,Texas-El Paso,CUSA
+51,OKC,Magnum Rolle,Louisiana Tech,CUSA
+54,CHA,Robert Vaden,UAB,CUSA
+55,UTA,Jeremy Evans,Western Kentucky,CUSA
+33,SAC,Hassan Whiteside,Marshall,CUSA
+22,ORL,Courtney Lee,Western Kentucky,CUSA
+32,SEA,Walter Sharpe,UAB,CUSA
+55,BRK,Jay Scrubb,John A. Logan College,GRAC
+48,ATL,Keith Benson,Oakland,Horz
+36,SAC,Ray McCallum,Detroit Mercy,Horz
+54,ATL,Kay Felder,Oakland,Horz
+28,CHI,Norris Cole,Cleveland State University,Horz
+26,SAS,George Hill,IUPUI,Horz
+50,PHO,Alec Brown,Green Bay,Horz
+58,GSW,Miye Oni,Yale,IVY
+45,LAC,Jared Jordan,Marist College,MAAC
+12,SAC,Jason Thompson,Rider University,MAAC
+37,PHI,Richaun Holmes,Bowling Green,MAC
+49,ORL,Kyle O'Quinn,Norfolk State,MEAC
+50,IND,Alize Johnson,Missouri State,MVC
+54,PHO,Alec Peters,Valparaiso,MVC
+29,TOR,Malachi Flynn,San Diego State,MWC
+37,MIL,Darington Hobson,New Mexico,MWC
+60,NOP,Sam Merrill,Utah State University,MWC
+47,WAS,Dominic McGuire,Fresno State,MWC
+34,DAL,Nick Fazekas,Nevada,MWC
+52,CHO,Jalen McDaniels,San Diego State,MWC
+27,LAL,Larry Nance Jr.,Wyoming,MWC
+20,MIA,Jason Smith,Colorado State,MWC
+49,CHI,Cameron Bairstow,New Mexico,MWC
+16,MIN,Luke Babbitt,Nevada,MWC
+51,GSW,Justinian Jessup,Boise State,MWC
+18,WAS,JaVale McGee,Nevada,MWC
+10,IND,Paul George,Fresno State,MWC
+38,MIL,Patrick McCaw,UNLV,MWC
+15,IND,Kawhi Leonard,San Diego State,MWC
+59,TOR,Xavier Thames,San Diego State,MWC
+1,CLE,Anthony Bennett,UNLV,MWC
+36,CHO,Cody Martin,Nevada,MWC
+22,CHI,Chandler Hutchison,Boise State,MWC
+30,BOS,J.R. Giddens,New Mexico,MWC
+40,SAC,Justin James,Wyoming,MWC
+41,ORL,Stephen Zimmerman,UNLV,MWC
+17,MIL,Rashad Vaughn,UNLV,MWC
+53,IND,Colton Iverson,Colorado State,MWC
+20,CHI,Tony Snell,New Mexico,MWC
+59,TOR,Jalen Harris,Nevada,MWC
+34,POR,Armon Johnson,Nevada,MWC
+41,MEM,Jamaal Franklin,San Diego State,MWC
+56,MIL,Ramon Sessions,Nevada,MWC
+58,BOS,Lester Hudson,University of Tennessee at Martin,OVC
+26,CLE,Dylan Windler,Belmont,OVC
+22,DEN,Kenneth Faried,Morehead State University,OVC
+34,HOU,Isaiah Canaan,Murray State,OVC
+14,OKC,Cameron Payne,Murray State,OVC
+47,UTA,Kevin Murphy,Tennessee Technological University,OVC
+2,MEM,Ja Morant,Murray State,OVC
+20,BOS,Matisse Thybulle,Washington,P12
+10,SAC,Spencer Hawes,Washington,P12
+16,WAS,Nick Young,USC,P12
+26,HOU,Aaron Brooks,Oregon,P12
+27,DET,Arron Afflalo,UCLA,P12
+32,BOS,Gabe Pruitt,USC,P12
+33,SAS,Marcus Williams,Arizona,P12
+3,MIN,O.J. Mayo,USC,P12
+4,SEA,Russell Westbrook,UCLA,P12
+5,MEM,Kevin Love,UCLA,P12
+10,NJN,Brook Lopez,Stanford,P12
+11,IND,Jerryd Bayless,Arizona,P12
+15,PHO,Robin Lopez,Stanford,P12
+21,NJN,Ryan Anderson,California,P12
+37,MIL,Luc Mbah a Moute,UCLA,P12
+38,CHA,Kyle Weaver,Washington State,P12
+48,PHO,Malik Hairston,Oregon,P12
+50,SEA,DeVon Hardin,California,P12
+54,HOU,Maarty Leunen,Oregon,P12
+3,OKC,James Harden,Arizona State,P12
+8,NYK,Jordan Hill,Arizona,P12
+9,TOR,DeMar DeRozan,USC,P12
+17,PHI,Jrue Holiday,UCLA,P12
+21,NOH,Darren Collison,UCLA,P12
+26,CHI,Taj Gibson,USC,P12
+31,SAC,Jeff Ayres,Arizona State,P12
+38,POR,Jon Brockman,Washington,P12
+44,DET,Chase Budinger,Arizona,P12
+26,OKC,Quincy Pondexter,Washington,P12
+39,NYK,Landry Fields,Stanford,P12
+2,MIN,Derrick Williams,Arizona,P12
+11,GSW,Klay Thompson,Washington State,P12
+12,UTA,Alec Burks,Colorado,P12
+16,PHI,Nikola Vučević,USC,P12
+35,SAC,Tyler Honeycutt,UCLA,P12
+43,CHI,Malcolm Lee,UCLA,P12
+60,SAC,Isaiah Thomas,Washington,P12
+8,TOR,Terrence Ross,Washington,P12
+24,CLE,Jared Cunningham,Oregon State,P12
+25,MEM,Tony Wroten,Washington,P12
+14,UTA,Shabazz Muhammad,UCLA,P12
+23,IND,Solomon Hill,Arizona,P12
+26,MIN,Andre Roberson,Colorado,P12
+31,CLE,Allen Crabbe,California,P12
+33,CLE,Carrick Felix,Arizona State,P12
+40,POR,Grant Jerrett,Arizona,P12
+54,WAS,Arsalan Kazemi,Oregon,P12
+4,ORL,Aaron Gordon,Arizona,P12
+13,MIN,Zach LaVine,UCLA,P12
+22,MEM,Jordan Adams,UCLA,P12
+28,LAC,C.J. Wilcox,Washington,P12
+29,OKC,Josh Huestis,Stanford,P12
+30,SAS,Kyle Anderson,UCLA,P12
+38,DET,Spencer Dinwiddie,Colorado,P12
+42,HOU,Nick Johnson,Arizona,P12
+45,CHH,Dwight Powell,Stanford,P12
+8,DET,Stanley Johnson,Arizona,P12
+20,TOR,Delon Wright,Utah,P12
+23,POR,Rondae Hollis-Jefferson,Arizona,P12
+30,GSW,Kevon Looney,UCLA,P12
+34,LAL,Anthony Brown,Stanford,P12
+43,IND,Joe Young,Oregon,P12
+46,MIL,Norman Powell,UCLA,P12
+3,BOS,Jaylen Brown,California,P12
+8,SAC,Marquese Chriss,Washington,P12
+9,TOR,Jakob Poeltl,Utah,P12
+29,SAS,Dejounte Murray,Washington,P12
+60,UTA,Tyrone Wallace,California,P12
+1,PHI,Markelle Fultz,Washington,P12
+2,LAL,Lonzo Ball,UCLA,P12
+7,MIN,Lauri Markkanen,Arizona,P12
+18,IND,T.J. Leaf,UCLA,P12
+27,BRK,Kyle Kuzma,Utah,P12
+29,SAS,Derrick White,Colorado,P12
+35,ORL,Ivan Rabb,California,P12
+38,CHI,Jordan Bell,Oregon,P12
+41,ATL,Tyler Dorsey,Oregon,P12
+44,NYK,Damyean Dotson,Oregon,P12
+45,HOU,Dillon Brooks,Oregon,P12
+47,IND,Ike Anigbogu,UCLA,P12
+53,BOS,Kadeem Allen,Arizona,P12
+56,BOS,Jabari Bird,California,P12
+1,PHO,Deandre Ayton,Arizona,P12
+15,WAS,Troy Brown Jr.,Oregon,P12
+23,IND,Aaron Holiday,UCLA,P12
+46,HOU,De'Anthony Melton,USC,P12
+49,SAS,Chimezie Metu,USC,P12
+58,DEN,Thomas Welsh,UCLA,P12
+59,PHO,George King,Colorado,P12
+30,MIL,Kevin Porter Jr.,USC,P12
+32,PHO,KZ Okpala,Stanford,P12
+43,MIN,Jaylen Nowell,Washington,P12
+44,MIA,Bol Bol,Oregon,P12
+56,LAC,Jaylen Hands,UCLA,P12
+6,ATL,Onyeka Okongwu,USC,P12
+16,POR,Isaiah Stewart,Washington,P12
+18,DAL,Josh Green,Arizona,P12
+22,DEN,Zeke Nnaji,Arizona,P12
+26,BOS,Payton Pritchard,Oregon,P12
+28,LAL,Jaden McDaniels,Washington,P12
+31,DAL,Tyrell Terry,Stanford,P12
+36,PHI,Tyler Bey,Colorado,P12
+46,POR,CJ Elleby,Washington State,P12
+48,GSW,Nico Mannion,Arizona,P12
+44,DAL,Mike Muscala,Bucknell,Pat
+10,POR,CJ McCollum,Lehigh,Pat
+46,SEA,Trent Plaisted,Brigham Young University Hawaii,PWC
+28,BOS,R.J. Hunter,Georgia State University,SB
+57,OKC,Kevin Hervey,UT Arlington,SB
+10,PHI,Elfrid Payton,Louisiana,SB
+13,PHO,Devin Booker,Kentucky,SEC
+12,UTA,Trey Lyles,Kentucky,SEC
+6,SAC,Willie Cauley-Stein,Kentucky,SEC
+1,MIN,Karl-Anthony Towns,Kentucky,SEC
+58,SAS,Jordan McRae,Tennessee,SEC
+46,WAS,Jordan Clarkson,Missouri,SEC
+41,ORL,Jarred Vanderbilt,Kentucky,SEC
+36,MIL,Johnny O'Bryant,LSU,SEC
+35,UTA,Jarnell Stokes,Tennessee,SEC
+45,BRK,Hamidou Diallo,Kentucky,SEC
+35,LAC,DeAndre Jordan,Texas A&M,SEC
+17,BOS,James Young,Kentucky,SEC
+40,MEM,Robert Woodard,Mississippi State,SEC
+7,LAL,Julius Randle,Kentucky,SEC
+57,PHO,Alex Oriakhi,Missouri,SEC
+49,CHI,Erik Murphy,Florida,SEC
+29,OKC,Archie Goodwin,Kentucky,SEC
+16,PHI,Marreese Speights,Florida,SEC
+42,NOP,Nick Richards,Kentucky,SEC
+21,PHI,Tyrese Maxey,Kentucky,SEC
+38,UTA,Saben Lee,Vanderbilt,SEC
+33,BOS,Jordan Mickey,LSU,SEC
+27,BOS,Robert Williams,Texas A&M,SEC
+25,MEM,Jarell Martin,LSU,SEC
+22,CHI,Bobby Portis,Arkansas,SEC
+8,CLE,Collin Sexton,Alabama,SEC
+9,NYK,Kevin Knox,Kentucky,SEC
+30,GSW,Damian Jones,Vanderbilt,SEC
+11,CHO,Shai Gilgeous-Alexander,Kentucky,SEC
+28,PHO,Skal Labissière,Kentucky,SEC
+14,DEN,Michael Porter Jr.,Missouri,SEC
+9,CHI,Joakim Noah,Florida,SEC
+17,MEM,Wade Baldwin,Vanderbilt,SEC
+7,DEN,Jamal Murray,Kentucky,SEC
+1,PHI,Ben Simmons,LSU,SEC
+48,OKC,Dakari Johnson,Kentucky,SEC
+44,PHO,Andrew Harrison,Kentucky,SEC
+8,DET,Kentavious Caldwell-Pope,Georgia,SEC
+6,NOH,Nerlens Noel,Kentucky,SEC
+5,CLE,Darius Garland,Vanderbilt,SEC
+59,SAS,Marcus Denmon,Missouri,SEC
+46,NOH,Darius Miller,Kentucky,SEC
+45,PHI,Justin Hamilton,LSU,SEC
+44,DET,Kim English,Missouri,SEC
+42,MIL,Doron Lamb,Kentucky,SEC
+12,CHO,P.J. Washington,Kentucky,SEC
+13,MIA,Tyler Herro,Kentucky,SEC
+39,DET,Khris Middleton,Texas A&M,SEC
+16,ORL,Chuma Okeke,Auburn,SEC
+31,CHA,Jeff Taylor,Vanderbilt,SEC
+30,GSW,Festus Ezeli,Vanderbilt,SEC
+22,BOS,Grant Williams,Tennessee,SEC
+29,CHI,Marquis Teague,Kentucky,SEC
+27,MIA,Arnett Moultrie,Mississippi State,SEC
+23,ATL,John Jenkins,Vanderbilt,SEC
+18,HOU,Terrence Jones,Kentucky,SEC
+3,WAS,Bradley Beal,Florida,SEC
+29,SAS,Keldon Johnson,Kentucky,SEC
+14,GSW,Anthony Randolph,LSU,SEC
+31,BRK,Nicolas Claxton,Georgia,SEC
+52,POR,Taurean Green,Florida,SEC
+2,CHA,Michael Kidd-Gilchrist,Kentucky,SEC
+1,NOH,Anthony Davis,Kentucky,SEC
+53,ORL,DeAndre Liggins,Kentucky,SEC
+38,CHI,Daniel Gafford,Arkansas,SEC
+52,DET,Vernon Macklin,Florida,SEC
+47,LAC,Travis Leslie,Georgia,SEC
+42,PHI,Admiral Schofield,Tennessee,SEC
+7,MIN,Corey Brewer,Florida,SEC
+3,ATL,Al Horford,Florida,SEC
+45,NOH,Josh Harrellson,Kentucky,SEC
+38,HOU,Chandler Parsons,Florida,SEC
+37,LAC,Trey Thompkins,Georgia,SEC
+19,CHA,Tobias Harris,Tennessee,SEC
+49,SAS,Quinndary Weatherspoon,Mississippi State,SEC
+51,BOS,Tremont Waters,LSU,SEC
+8,DET,Brandon Knight,Kentucky,SEC
+41,MIA,Jarvis Varnado,Mississippi State,SEC
+36,DET,Terrico White,Ole Miss,SEC
+29,ORL,Daniel Orton,Kentucky,SEC
+49,PHI,Isaiah Joe,Arkansas,SEC
+57,NOP,Jordan Bone,Tennessee,SEC
+18,OKC,Eric Bledsoe,Kentucky,SEC
+14,HOU,Patrick Patterson,Kentucky,SEC
+1,MIN,Anthony Edwards,Georgia,SEC
+5,SAC,DeMarcus Cousins,Kentucky,SEC
+1,WAS,John Wall,Kentucky,SEC
+5,CLE,Isaac Okoro,Auburn,SEC
+50,ATL,Skylar Mays,LSU,SEC
+59,LAL,Chinemelu Elonu,Texas A&M,SEC
+45,MIN,Nick Calathes,Florida,SEC
+43,MIA,Marcus Thornton,LSU,SEC
+13,NOP,Kira Lewis Jr.,Alabama,SEC
+14,BOS,Aaron Nesmith,Vanderbilt,SEC
+42,LAL,Patrick Beverley,Arkansas,SEC
+42,POR,Derrick Byars,Vanderbilt,SEC
+41,MIN,Chris Richard,Florida,SEC
+41,MIL,Jodie Meeks,Kentucky,SEC
+27,MEM,DeMarre Carroll,Missouri,SEC
+40,MIA,Josh Richardson,Tennessee,SEC
+36,GSW,Jermareo Davidson,Alabama,SEC
+25,OKC,Immanuel Quickley,Kentucky,SEC
+35,SEA,Glen Davis,LSU,SEC
+11,ATL,Acie Law,Texas A&M,SEC
+58,LAL,Joe Crawford,Kentucky,SEC
+51,DAL,Shan Foster,Vanderbilt,SEC
+57,LAC,Reggie Perry,Mississippi State,SEC
+49,GSW,Richard Hendrix,Alabama,SEC
+48,MIL,Sindarius Thornwell,South Carolina,SEC
+39,CHI,Sonny Weems,Arkansas,SEC
+14,MIA,Bam Adebayo,Kentucky,SEC
+11,CHO,Malik Monk,Kentucky,SEC
+5,SAC,De'Aaron Fox,Kentucky,SEC
+34,PHO,Tyler Ulis,Kentucky,SEC
+38,WAS,Nate Wolters,South Dakota State,Sum
+27,TOR,Pascal Siakam,New Mexico State,WAC
+15,DET,Austin Daye,Gonzaga,WCC
+60,LAL,Robert Sacre,Gonzaga,WCC
+55,UTA,Nigel Williams-Goss,Gonzaga,WCC
+21,OKC,Brandon Clarke,Gonzaga,WCC
+9,WAS,Rui Hachimura,Gonzaga,WCC
+10,MIL,Jimmer Fredette,BYU,WCC
+10,SAC,Zach Collins,Gonzaga,WCC
+13,DAL,Kelly Olynyk,Gonzaga,WCC
+55,POR,Patty Mills,Saint Mary's,WCC
+11,ORL,Domantas Sabonis,Gonzaga,WCC
