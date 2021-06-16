@@ -1,11 +1,11 @@
 // import the data from the csv
-const tableData = d3.csv("../static/js/07-20_MBB_StatsAndDraft.csv", function(data){
-    console.log(data);
-});
+// const tableData = d3.csv("../static/js/07-20_MBB_StatsAndDraft.csv", function(data){
+//     console.log(data);
+// });
 
 
 // Select thead in the HTML file
-var tbody = d3.select("thead");
+var tbody = d3.select("tbody");
 
 // Function to create header and table for the data in draft picks
 function buildTable(data) {
@@ -25,4 +25,4 @@ function buildTable(data) {
     });
 }
 
-buildTable(tableData);
+// buildTable(tableData);

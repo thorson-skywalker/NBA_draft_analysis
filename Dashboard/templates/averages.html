@@ -7,9 +7,7 @@
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Hugo 0.83.1">
   <title>NBA Draft Analysis</title>
-
-  <!-- For the dashboard elements? -->
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/dashboard/">
+    
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <!-- D3 -->
@@ -48,7 +46,7 @@
           <ul class="nav flex-column">
             <!-- This Section Should Display our picks for the 2021 draft -->
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="draftPicks">
+              <a class="nav-link" href="draftPicks">
                 <span data-feather="aperature"></span>
                 Draft Picks 2021
               </a>
@@ -76,7 +74,7 @@
             </li>
             <!-- This section would display graphs comparing drafted player's stats against the average stats for undrafted players -->
             <li class="nav-item">
-              <a class="nav-link" href="averages">
+              <a class="nav-link active" aria-current="page" href="averages">
                 <span data-feather="bar-chart-2"></span>
                 Drafted vs Undrafted
               </a>
@@ -93,7 +91,7 @@
           <!-- Header for possible data set display in the sidebar-->
 
           <!-- <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-            <span>Select Title to Display Information</span>
+            <span>Data</span>
             <a class="link-secondary" href="#" aria-label="Add a new report">
               <span data-feather="plus-circle"></span>
             </a>
@@ -135,7 +133,7 @@
       <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
           <!-- Need to display the Sidebar title clicked with default as the Draft Picks -->
-          <h1 class="h2">2021 Draft Picks</h1>
+          <h1 class="h2">Drafted vs Undrafted</h1>
           <!-- This could be used to make buttons in the top right corner possibly to sort data by year but currently uneccessary -->
           <!-- <div class="btn-toolbar mb-2 mb-md-0">
             <div class="btn-group me-2">
@@ -150,45 +148,19 @@
         </div>
 
         <!-- This is where the graphs/images will be displayed -->
-        <!-- <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas> -->
+        <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
 
-        <!-- Default page that also displays our predicted 2021 picks and their stats -->
-        <h2>Player Stats</h2>
+        <!-- Display/Populate Graphical illistration of averages of drafted players v undrafted players -->
+        <h2>How Do Our Drafted Players Stack up Against our Undrafted Players?</h2>
         <div class="table-responsive">
           <table class="table table-striped table-sm">
             <thead>
               <tr>
-                <th>#</th>
-                <th>Player</th>
-                <th>Team</th>
-                <th>GP</th>
-                <th>MPG</th>
-                <th>FGM</th>
-                <th>FGA</th>
-                <th>FG%</th>
-                <th>3PM</th>
-                <th>3PA</th>
-                <th>3P%</th>
-                <th>FTM</th>
-                <th>FTA</th>
-                <th>FT%</th>
-                <th>TOV</th>
-                <th>PF</th>
-                <th>ORB</th>
-                <th>DRG</th>
-                <th>RPG</th>
-                <th>APG</th>
-                <th>SPG</th>
-                <th>BPG</th>
-                <th>PPG</th>
-                <th>Season Year</th>
-                <th>pk</th>
-                <th>Drafted</th>
-                <th>Draft Year</th>
+                *TPossible subsection title*
               </tr>
             </thead>
             <tbody>
-              
+              <tr>*Insert subsection text Here*</tr>
             </tbody>
           </table>
         </div>
@@ -201,7 +173,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script>
-  <script src="../static/js/draftPicks.js"></script>
+  <script src="../static/js/averages.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
   <script src="../static/bootstrap/js/dashboard.js"></script>
 </body>
