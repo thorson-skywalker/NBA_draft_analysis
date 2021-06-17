@@ -1,5 +1,49 @@
 # NBA Draft Analysis
 
+## Model Summary and Results
+
+## Report Deliverables:
+
+### Description of data preprocessing
+
+  Data is pulled from the S3 storage location as a .csv file directly into pandas. In preprocessing, all text columns are dropped, leaving the only numerical data and an ID provided from the database. The data is then further reduced to include only features commonly found in basketball players' individual statistics. Because of the large disparity in undrafted players (>1900 per season) and drafted players (<60 per season), combination over- and under-sampling is then done using SMOTEENN. The final stage of preprocessing is to split the data into training and test datasets and scale the X data.
+
+### Description of feature engineering and the feature selection, including the team's decions-making progress
+
+  Basketball statistics are primarily numerical in nature, so the intial feature cut to remove all text columns resulted in only removing the players' position, name, and team. Redundant features (such as Field Goals Attempted, Field Goals Made, and Field Goal %) were also present and needed to be removed. Finally, the most common basketball statistics (points, rebounds, assists, steals, turnovers, and minutes per game, as well as games played). These were selected because they are the most commonly tracked statistics that all players considering entering the draft from college will have readliy available. This step also took care of removing the redundant features, as they were not included in the list of features to keep.
+
+### Description of how data was split into training and testing sets
+
+
+
+### Explanation of model choice, including limitations and benefits
+
+
+
+### Explanation of changes in model choice (if changes occurred between the Segment 2 & 3 deliverables)
+
+
+
+### Description of how model was trained (or retrained, if they are using an existing model)
+
+
+
+### Description and explanation of model's confusion matrix, including final accuracy score
+
+
+
+### Model addresses the question or problem the team is solving
+
+
+_Note: If statistical analysis is not included as part of the current analysis, include a description of how it would be included in the next phase of the project_
+
+
+
+
+
+
+
+
 ## Week 3: Machine Learning (06/13/2021)
 
 The third segment of the machine learning part of the NBA Draft Analysis was two parts - first, save and export the model using python's `pickle` module, and second, to test the model using a real draft class.
