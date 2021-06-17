@@ -31,3 +31,14 @@ def averages():
 def chances():
     return render_template('chances.html')
 #%%
+# @app.route("/prediction")
+# def prediction():
+#     # Have the JSON pass though the module and return a bool
+
+#     # If true render template for draftable, if false: undraftable, else error template.
+#     if True:
+#         return render_template('draftable.html')
+#     elif False:
+#         return render_template('undraftable.html')
+#     else
+#         return render_template('error.html')

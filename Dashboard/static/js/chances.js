@@ -21,9 +21,9 @@ function collectStats() {
     else {
         delete stats[statID];
     }
-    // write stats to readable csv to be used in the prediction model
-    let ObjectToCsv = require('objects-to-csv')
-    new ObjectToCsv(stats).toDisk('./data/player_data.csv')
+    // write stats to readable JSON to be used in the prediction model
+    // let ObjectToCsv = require('objects-to-csv')
+    // new ObjectToCsv(stats).toDisk('./data/player_data.csv')
 }
 
 // Create event listener to 
@@ -32,8 +32,15 @@ d3.selectAll("input").on("change", collectStats);
 // Create function the predicts draftability based on 'stats' dict
 function calculateStats() {
 
-    // Run prediction model on stats data to return a boolean
+    // Create JSON file from inputs
+    let statsJson = JSON.stringify(stats);
+    
+    // Export file to data folder
+    let fs = require('fs');
+    fs.writeFile("../data/input.json", statsJson);
 
-    // Use the resulting boolean term to display "draftable" or "Not Draftable"
+    // Navigate to "/prediction" endpoint on url
 
 }
+
+d3.select("#btn").on("click", calculateStats);

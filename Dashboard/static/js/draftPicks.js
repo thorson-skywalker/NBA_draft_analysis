@@ -1,18 +1,17 @@
 // import the data from the csv
-// const tableData = d3.csv("../static/js/07-20_MBB_StatsAndDraft.csv", function(data){
-//     console.log(data);
-// });
+const tableData = d3.csv("../static/data/2021_predictions.csv");
 
+console.log(tableData);
 
-// Select thead in the HTML file
+// Select tbody in the HTML file
 var tbody = d3.select("tbody");
 
 // Function to create header and table for the data in draft picks
-function buildTable(data) {
-    // Clear out existing data
-    tbody.html("");
-
-    data.forEach ((dataRow) => {
+function buildTable(tableData) {
+    
+    // Loop through the data to append row and cell data
+    tableData.forEach((dataRow) => {
+        console.log(dataRow);
         //  Append a row to the table body
         let row = tbody.append("tr");
 
@@ -20,9 +19,8 @@ function buildTable(data) {
         Object.values(dataRow).forEach((val) => {
             let cell = row.append("td");
             cell.text(val);
-            }
-    );
+        });
     });
 }
 
-// buildTable(tableData);
+buildTable(tableData);
