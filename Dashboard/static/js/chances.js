@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 // Create dictionary to hold inputs
 var stats = {};
 
@@ -21,7 +23,7 @@ function collectStats() {
     else {
         delete stats[statID];
     }
-    console.log(stats)
+    console.log(stats);
 }
 
 // Create event listener to 
@@ -31,11 +33,11 @@ d3.selectAll("input").on("change", collectStats);
 function calculateStats(stats) {
 
     // Create variable to be used in app.py for prediction
-    let ppg = stats["ppg"];
-    let rpg = stats["rpg"];
-    let apg = stats["apg"];
-    let spg = stats["spg"];
-    let tov = stats["tov"];
+    let ppg = stats.ppg;
+    let rpg = stats.rpg;
+    let apg = stats.apg;
+    let spg = stats.spg;
+    let tov = stats.tov;
     let fg_percent = stats["fg%"];
     let threes = stats["3p%"];
     let freeThrows = stats["ft%"];
@@ -44,8 +46,8 @@ function calculateStats(stats) {
             return response.json();
         })
         .then((myJson) => {
-            console.log(myJson.result)
-        })
+            console.log(myJson.result);
+        });
 }
 
 d3.select("#analysis-button").on("click", calculateStats);
