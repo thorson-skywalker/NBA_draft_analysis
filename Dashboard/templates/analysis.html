@@ -16,6 +16,9 @@
   <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script>
   <!-- Custom styles for this template -->
   <link href="../static/bootstrap/css/dashboard.css" rel="stylesheet">
+  <!-- Feather icons -->
+  <!-- <script src="https://unpkg.com/feather-icons"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script> -->
   
 </head>
 <body>
@@ -35,18 +38,18 @@
           <!-- These are the selectable titles to display data -->
 
           <ul class="nav flex-column">
+            <!-- This section would discuss how our analysis was performed -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="analysis">
+                <span></span>
+                Analysis
+              </a>
+            </li>
             <!-- This Section Should Display our picks for the 2021 draft -->
             <li class="nav-item">
               <a class="nav-link" href="draftPicks">
                 <span data-feather="aperature"></span>
                 Draft Picks 2021
-              </a>
-            </li>
-            <!-- This section would discuss how our analysis was performed -->
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="analysis">
-                <span data-feather="users"></span>
-                Analysis
               </a>
             </li>
             <!-- This section should display breakdown of which stats were the most influential in determining draft picks  -->
@@ -60,7 +63,7 @@
             <li class="nav-item">
               <a class="nav-link" href="schools">
                 <span data-feather="award"></span>
-                Most Successful Conferences and Schools
+                Schools and Conferences
               </a>
             </li>
             <!-- This section would display graphs comparing drafted player's stats against the average stats for undrafted players -->
@@ -78,7 +81,6 @@
               </a>
             </li>
           </ul>
-
         </div>
       </nav>
 
@@ -94,7 +96,7 @@
         <!-- <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas> -->
 
         <!-- For Analysis Text blurb describing the general process of our analysis -->
-        <h4>How did we make our predictions?</h4>
+        <h4>Analysis of our Draft Picks</h4>
         <div class="table-responsive">
           <table class="table table-striped table-sm">
             <thead>
@@ -102,7 +104,13 @@
               </tr>
             </thead>
             <tbody>
-              <p>Our analysis included several tasks, from pulling data on players for several seasons, to using machine learning to determine which players were draftable. We used several sites to collect our data on players specifically in NCAA men's basketball division I schools. Once we had collected that data, we cleaned it so that we could train a machine learning model. This data included the seasons 2007-2020. Training the model was not an easy task, and required several attempts and optimizations. Once we had trained a model that we felt would be successful, we ran data we collected on the 2021 season to make our picks for the 2021 NBA draft. We can also use model to determine the draftablity of a single individual's stats. In the Calculate Draft Chances section in the sidebar, you can input your own stats to determine if you are draftable by the NBA. You can aslo see which schools have been the most successful at training the most draftable atheletes in the Most Successful Conferences and Schools section of the sidebar. Under the Stats Breakdown section of the sidebar, you will be able to see the stats with the greatest influence on draftability according to our model.</p>
+              <p>The players we selected for the table under the "Draft Picks 2021" were done so after careful analysis using Machine Learning and player stats from NCAA Men's Basketball Division I schools. The data necessary to complete the projected was scraped from several online sources and then complied for analysis. We analyzed the data by training the data on a linear regression model to determine who would not be drafted, and who had a chance of being drafted. Due to the sginificant difference in the amount of data for drafted and undrafted players, only 60 possible draft candidates per season against hundreds of undrafted players, our biggest challenge was ensuring percision in our model. However, we were able to overcome this issue and present to you the indivduals we believe will be drafted in the 2021 NBA Draft.</p>
+              <p>In the sidebar you will find several different data visualizations as well as a location to input your own statistics to determine their viability in the NBA draft.</p>
+              <p>Draft Picks 2021: Here is a table with our picks for the 2021 NBA Draft</p>
+              <p>Stats Breakdown: Here you will find a breakdown of the stats that we were able to determine as the most important towards draftability for our model</p>
+              <p>Schools and Conferences: Here you will find a graph that represents the schools and conferences that produce the most drafted players since 2007</p>
+              <p>Drafted vs Undrafted: This is where you can see the differences in the average stats for drafted players and undrafted players since 2007</p>
+              <p>Calculate Draft Chances: Here you can input your own statistics and use our model to determine if you are draftable</p>
             </tbody>
           </table>
         </div>
@@ -113,7 +121,7 @@
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
   <script src="../static/bootstrap/js/dashboard.js"></script>
