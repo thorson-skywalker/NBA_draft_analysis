@@ -1,5 +1,5 @@
-// import the data from the csv
-const tableData = d3.json("../static/data/cleaned_predictions.json");
+// import the data
+const tableData = draftPredictions;
 console.log(tableData);
 
 // Select tbody in the HTML file

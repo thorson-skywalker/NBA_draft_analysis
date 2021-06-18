@@ -1,8 +1,7 @@
 #%%
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 from flask import jsonify
 from predict_player import predict_single_player
-from requests import request
 #%%
 app = Flask(__name__)
 #%%
@@ -56,7 +55,7 @@ def prediction():
         "3P%" : threes,
         "FT%" : freeThrows
     })
-    
+
     # Pass the input json through the prediction.py script and return a JSON with the results
     return jsonify({ "prediction" : predict_single_player(inputStats)})
 #%%
