@@ -2,6 +2,7 @@
 from flask import Flask, render_template, request
 from flask import jsonify
 from predict_player import predict_single_player
+import pandas as pd
 #%%
 app = Flask(__name__)
 #%%
@@ -56,6 +57,9 @@ def prediction():
         "FT%" : freeThrows
     })
 
+    # Check to see inputStats being create correctly
+    return jsonify({ "prediction" : ppg})
+
     # Pass the input json through the prediction.py script and return a JSON with the results
-    return jsonify({ "prediction" : predict_single_player(inputStats)})
+    # return jsonify({ "prediction" : predict_single_player(inputStats)})
 #%%

@@ -24,13 +24,15 @@ function collectStats() {
         delete stats[statID];
     }
     console.log(stats);
+
+
 }
 
 // Create event listener to 
 d3.selectAll("input").on("change", collectStats);
 
 // Create function the predicts draftability based on 'stats' dict
-function calculateStats(stats) {
+function calculateStats() {
 
     // Create variable to be used in app.py for prediction
     let ppg = stats.ppg;
@@ -46,8 +48,8 @@ function calculateStats(stats) {
             return response.json();
         })
         .then((myJson) => {
-            console.log(myJson.result);
+            console.log(myJson.prediction);
         });
 }
 
-d3.select("#analysis-button").on("click", calculateStats);
+d3.selectAll("#analysis-btn").on("click", calculateStats);
