@@ -1,5 +1,8 @@
 #%%
 from flask import Flask, render_template
+from flask import jsonify
+from predict_player import predict_single_player
+from requests import request
 #%%
 app = Flask(__name__)
 #%%
@@ -31,14 +34,30 @@ def averages():
 def chances():
     return render_template('chances.html')
 #%%
-# @app.route("/prediction")
-# def prediction():
-#     # Have the JSON pass though the module and return a bool
+@app.route("/prediction")
+# function to pass the JSON though the module and return a bool
+def prediction():     
+    # Request JSON
+    ppg = request.args.get('ppg')
+    rpg = request.args.get('rpg')
+    apg = request.args.get('apg')
+    spg = request.args.get('spg')
+    tov = request.args.get('tov')
+    fg_percent = request.args.get('fg_percent')
+    threes = request.args.get('threes')
+    freeThrows = request.args.get('freeThrows')
+    input = jsonify({
+        "ppg" : ppg,
+        "rpg" : rpg,
+        "apg" : apg,
+        "spg" : spg,
+        "tov" : tov,
+        "FG%" : fg_percent,
+        "3P%" : threes,
+        "FT%" : freeThrows
+    })
+    
+    # Pass the input json through the prediction.py script and return a JSON with the results
+    return jsonify({ "prediction" : predict_single_player(input)})
 
-#     # If true render template for draftable, if false: undraftable, else error template.
-#     if True:
-#         return render_template('draftable.html')
-#     elif False:
-#         return render_template('undraftable.html')
-#     else
-#         return render_template('error.html')
+#%%

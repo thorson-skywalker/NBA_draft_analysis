@@ -8,11 +8,11 @@ function collectStats() {
     let stat = d3.select(this);
     // save input value as a variable
     let statValue = stat.property("value");
-    console.log(statValue);
+    // console.log(statValue);
 
     // Save id of input as variable
     let statID = stat.attr("id");
-    console.log(statID);
+    // console.log(statID);
 
     // For each input add statID and statValue to stats dict
     if (statValue) {
@@ -21,26 +21,30 @@ function collectStats() {
     else {
         delete stats[statID];
     }
-    // write stats to readable JSON to be used in the prediction model
-    // let ObjectToCsv = require('objects-to-csv')
-    // new ObjectToCsv(stats).toDisk('./data/player_data.csv')
 }
 
 // Create event listener to 
 d3.selectAll("input").on("change", collectStats);
 
 // Create function the predicts draftability based on 'stats' dict
-function calculateStats() {
+function calculateStats(data) {
 
-    // Create JSON file from inputs
-    let statsJson = JSON.stringify(stats);
-    
-    // Export file to data folder
-    let fs = require('fs');
-    fs.writeFile("../data/input.json", statsJson);
-
-    // Navigate to "/prediction" endpoint on url
-
+    // Create variable to be used in app.py for prediction
+    let ppg = data["ppg"];
+    let rpg = data["rpg"];
+    let apg = data["apg"];
+    let spg = data["spg"];
+    let tov = data["tov"];
+    let fg_percent = data["fg_percent"];
+    let threes = data["threes"];
+    let freeThrows = data["freeThrows"];
+    fetch('http://127.0.0.1/prediction?ppg='+ppg+'&rpg='+rpg+'&apg='+apg+'&spg='+spg+'&tov='+tov+'&fg_percent='+fg_percent+'&threes='+threes+'&freeThrows='+freeThrows)
+        .then((response) => {
+            return response.json();
+        })
+        .then((myJson) => {
+            console.log(myJson.result)
+        })
 }
 
-d3.select("#btn").on("click", calculateStats);
+d3.select("#btn").on("click", calculateStats(stats));
