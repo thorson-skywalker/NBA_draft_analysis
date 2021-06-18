@@ -21,24 +21,25 @@ function collectStats() {
     else {
         delete stats[statID];
     }
+    console.log(stats)
 }
 
 // Create event listener to 
 d3.selectAll("input").on("change", collectStats);
 
 // Create function the predicts draftability based on 'stats' dict
-function calculateStats(data) {
+function calculateStats(stats) {
 
     // Create variable to be used in app.py for prediction
-    let ppg = data["ppg"];
-    let rpg = data["rpg"];
-    let apg = data["apg"];
-    let spg = data["spg"];
-    let tov = data["tov"];
-    let fg_percent = data["fg_percent"];
-    let threes = data["threes"];
-    let freeThrows = data["freeThrows"];
-    fetch('http://127.0.0.1/prediction?ppg='+ppg+'&rpg='+rpg+'&apg='+apg+'&spg='+spg+'&tov='+tov+'&fg_percent='+fg_percent+'&threes='+threes+'&freeThrows='+freeThrows)
+    let ppg = stats["ppg"];
+    let rpg = stats["rpg"];
+    let apg = stats["apg"];
+    let spg = stats["spg"];
+    let tov = stats["tov"];
+    let fg_percent = stats["fg%"];
+    let threes = stats["3p%"];
+    let freeThrows = stats["ft%"];
+    fetch('http://127.0.0.1:5000/prediction?ppg='+ppg+'&rpg='+rpg+'&apg='+apg+'&spg='+spg+'&tov='+tov+'&fg_percent='+fg_percent+'&threes='+threes+'&freeThrows='+freeThrows)
         .then((response) => {
             return response.json();
         })
@@ -47,4 +48,4 @@ function calculateStats(data) {
         })
 }
 
-d3.select("#btn").on("click", calculateStats(stats));
+d3.select("#analysis-button").on("click", calculateStats);

@@ -46,7 +46,7 @@ def prediction():
     fg_percent = request.args.get('fg_percent')
     threes = request.args.get('threes')
     freeThrows = request.args.get('freeThrows')
-    input = jsonify({
+    inputStats = jsonify({
         "ppg" : ppg,
         "rpg" : rpg,
         "apg" : apg,
@@ -58,6 +58,5 @@ def prediction():
     })
     
     # Pass the input json through the prediction.py script and return a JSON with the results
-    return jsonify({ "prediction" : predict_single_player(input)})
-
+    return jsonify({ "prediction" : predict_single_player(inputStats)})
 #%%
