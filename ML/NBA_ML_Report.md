@@ -32,6 +32,8 @@
 
   A total of 38 varous model and input combinations were tested and logged in an excel workbook (snapshot below, link [here](https://github.com/thorson-skywalker/NBA_draft_analysis/blob/main/ML/2020_tests/2020_draft_model_testing.xlsx)). Model type, test set size, number of input features, number of estimators or iterations (depending on model type), over/under sampling technique, and scaled vs un-scaled data were all tested to find the best fit.
 
+  <img src='https://github.com/thorson-skywalker/NBA_draft_analysis/blob/main/ML/ML%20Report%20Images/excel_model_image.png'>
+
   None of the models were able to accurately predict which players were drafted in 2020 with high enough precision to be useful. The testing was able to provide several models that had high precision with players who were not drafted, indicating that they could predict which players would _**not**_ be drafted. Of the models with high precision with respect to undrafted players, a logistic regression classifier with a test data split of 5%, using eight features, 1000 estimators (trees), and smoteenn over/under sampling had the fewest number of false negatives (3 of 2000 test datapoints) and was selected for the final model.
 
 ## Model Training
@@ -44,7 +46,7 @@
 
   However, when using the 2020 data, the selected linear regression model had the confusion matrix and classification report shown below (_note: the confusion matrix shows, from upper left to lower right, True Negatives, False Positives, False Negatives, True Positives):
 
-<img src='conf_matrix.png'>
+<img src='https://github.com/thorson-skywalker/NBA_draft_analysis/blob/main/ML/ML%20Report%20Images/conf_matrix.png'>
 
   The confusion matrix shows only 3 false negatives (of 1460 total negative predictions), leading to a 99.8% precision when predicting players would not be drafted. The accuracy score is low, at only 74.7%, due to the high number of players being predicted as draftable. It is important to note that this model cannot tell a player that he is statistically likely to be drafted, but it can tell him if he is statistically unlikely to be drafted.
 
