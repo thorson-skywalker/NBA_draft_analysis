@@ -3,6 +3,7 @@ from flask import Flask, render_template, request, make_response
 from flask import jsonify
 from predict_player import predict_single_player
 import pandas as pd
+import json
 # %%
 app = Flask(__name__)
 # %%
@@ -70,9 +71,8 @@ def prediction():
     player.append(player_stats)
     player_df = pd.DataFrame(player)
 
-    # Pass the input json through the prediction.py script and return a JSON with the results
+    # Pass the input json through the prediction.py script and return a bool
     if predict_single_player(player_df):
-        # return render_template('draftable.html')
-        return undraftable()
-    return draftable()
+        return jsonify(prediction=True)
+    return jsonify(prediction-False)
 # %%
