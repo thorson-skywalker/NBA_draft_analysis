@@ -31,7 +31,7 @@ Cycled through each “season stats” CSV and cleaned accents, punctuation, and
 Cycled through each “draft results” CSV and cleaned accents, punctuation, and suffixes for data format consistency. Combined all “draft results” cleaned CSVs into a master CSV. 
 
 ### Database Storage
-The database engine that we’re using for the NBA Draft Analysis is PostgreSQL and pgAdmin as our client / management tool that we using to manipulate the data. So far, the database has a total of three tables that were storing for the NBA Draft Analysis.  The first table is storing college stats by player, the second is storing the NBA Draft results and the third we queried the two tables to combine the players stats with draft result by left join on the player’s names for the machine learning model to analyze.  The database is hosted in the cloud by Amazon Web Services (AWS) by using the Relational Database Service (RDS).  The cleaned data is then stored in an Amazon S3 bucket where it is made available to the team for the machine learning model to reference.
+The database engine that we’re using for the NBA Draft Analysis is PostgreSQL and pgAdmin as our client / management tool that we using to manipulate the data. The database has a total of 14 tables that were storing for the NBA Draft Analysis.  The first group of tables is storing static college stats, by player, for different time frames.  The second group of tables are storing the NBA Draft results for the different time frames.  The third group of tables were created by querying the two corresponding dates tables to combine the players stats with draft results by left join on the player’s names for the machine learning model to analyze.  Lastly, we have a group of tables created for the conference and school visualization.  We used a left join on the team and conference data set into the existing draft data for the School and Conference draft success visualization that was created using Tableau.  The database is hosted in the cloud by Amazon Web Services (AWS) by using the Relational Database Service (RDS).  The cleaned data is then stored in an Amazon S3 bucket where it is made available to the team for the machine learning model to reference.
 
 ### Machine Learning
 
@@ -40,4 +40,5 @@ Using the NCAA men's basketball season statistics from 2007-2020, a logistic reg
 For full details on data preprocessing, feature selection, model selection, and results, please follow this [link](https://github.com/thorson-skywalker/NBA_draft_analysis/blob/main/ML/NBA_ML_Report.md).
 
 ### Dashboard
+
 Using a template from BootStrap, a dashboard was built to display important information from our analysis. There is also included an interactive portion that will allow the user to evaluate their chances of being drafted by inputing their own stats. This will be accomplished using a javascript function that will run that data through our trained model.
