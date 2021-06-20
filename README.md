@@ -3,12 +3,6 @@
 ## Purpose
 An analysis of college basketball statistics and their influence on getting selected in the NBA draft.
 
-## Responsibilities
-- Luke: Dashboard, README/GitHub
-- Parker: Database
-- Brady: Machine Learning
-- Brooks: ETL
-
 ## Communication Protocol
 
 - Primary Form of Communication: Slack
