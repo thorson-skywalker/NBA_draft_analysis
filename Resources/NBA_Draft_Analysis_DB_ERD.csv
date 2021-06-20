@@ -30,7 +30,7 @@ NBA_Draft_Results
 Pk int
 Tm varchar
 Player1 varchar pk
-College varchar
+College varchar FK - NCAA_conference_data.Team
 Draft_Year int
 
 NCAA_conference_data
@@ -40,7 +40,7 @@ Conf varchar FK
 
 MBB_StatsAndDraft
 -
-"#" int
+"#" int pk
 Player varchar
 Team varchar
 GP numeric
@@ -94,3 +94,11 @@ SPG numeric
 BPG numeric
 PPG numeric
 Season_Year int
+
+Conferenc_Data_Final
+-
+Pk int
+Tm varchar
+Player1 varchar pk
+College varchar
+Conf varchar
