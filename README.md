@@ -7,9 +7,6 @@ An analysis of college basketball statistics and their influence on getting sele
 
 - Primary Form of Communication: Slack
 - Meetings on Mondays and Wednesdays 7:00pm - 9:00pm
-- Meetings between memebers regarding collaboration on related segments to be setup as needed through slack.
-
-*** Note: Luke will be unavailable Thursday 5/27 and Saturday 5/29, but will have some availability periodically on Friday***
 
 ## Hypothesis
 > A college basketball player's season statistics can be used to determine whether or not that athlete will be drafted into the NBA.
