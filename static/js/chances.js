@@ -45,6 +45,8 @@ function calculateStats() {
     let fg_percent = stats["fg%"];
     let threes = stats["3p%"];
     let freeThrows = stats["ft%"];
+    // This would need to be different for the heroku app
+    // fetch('https://nba-draft-predictor.herokuapp.com/prediction?ppg='+ppg+'&rpg='+rpg+'&apg='+apg+'&spg='+spg+'&tov='+tov+'&fg_percent='+fg_percent+'&threes='+threes+'&freeThrows='+freeThrows)
     fetch('http://127.0.0.1:5000/prediction?ppg='+ppg+'&rpg='+rpg+'&apg='+apg+'&spg='+spg+'&tov='+tov+'&fg_percent='+fg_percent+'&threes='+threes+'&freeThrows='+freeThrows)
         .then((response) => {
 
