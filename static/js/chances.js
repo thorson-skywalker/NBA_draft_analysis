@@ -33,6 +33,8 @@ d3.selectAll("input").on("change", collectStats);
 
 // Create function the predicts draftability based on 'stats' dict
 function calculateStats() {
+    // Create a selector for tbody
+    let tbody = d3.select("tbody");
 
     // Create variable to be used in app.py for prediction
     let ppg = stats.ppg;
@@ -45,7 +47,16 @@ function calculateStats() {
     let freeThrows = stats["ft%"];
     fetch('http://127.0.0.1:5000/prediction?ppg='+ppg+'&rpg='+rpg+'&apg='+apg+'&spg='+spg+'&tov='+tov+'&fg_percent='+fg_percent+'&threes='+threes+'&freeThrows='+freeThrows)
         .then((response) => {
-            return response;
+
+            console.log(response);
+            if (response.ok == true) {
+                let react = tbody.append("tr");
+                react.text("draftable");
+            }
+            else {
+                let react = tbody.append("tr");
+                react.text("undraftable");
+            }
         });
         // .then((myJson) => {
         //     console.log(myJson.prediction);
