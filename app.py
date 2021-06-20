@@ -1,5 +1,5 @@
 # %%
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, make_response
 from flask import jsonify
 from predict_player import predict_single_player
 import pandas as pd
@@ -7,48 +7,50 @@ import pandas as pd
 app = Flask(__name__)
 # %%
 
-
 @app.route("/")
 def main():
     return render_template('index.html')
 # %%
-
 
 @app.route("/schools")
 def schools():
     return render_template('schools.html')
 # %%
 
-
 @app.route("/draftPicks")
 def draftpicks():
     return render_template('index.html')
 # %%
-
 
 @app.route("/analysis")
 def analysis():
     return render_template('analysis.html')
 # %%
 
-
 @app.route("/stats")
 def stats():
     return render_template('stats.html')
 # %%
-
 
 @app.route("/averages")
 def averages():
     return render_template('averages.html')
 # %%
 
-
 @app.route("/chances")
 def chances():
     return render_template('chances.html')
 # %%
 
+@app.route("/undraftable")
+def undraftable():
+    return render_template('undraftable.html')
+# %%
+
+@app.route("/draftable")
+def draftable():
+    return render_template('draftable.html')
+# %%
 
 @app.route("/prediction")
 # function to pass the JSON though the module and return a bool
@@ -70,7 +72,7 @@ def prediction():
 
     # Pass the input json through the prediction.py script and return a JSON with the results
     if predict_single_player(player_df):
-        return render_template('draftable.html')
-
-    return render_template('undraftable.html')
+        # return render_template('draftable.html')
+        return undraftable()
+    return draftable()
 # %%

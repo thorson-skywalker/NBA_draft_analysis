@@ -45,11 +45,11 @@ function calculateStats() {
     let freeThrows = stats["ft%"];
     fetch('http://127.0.0.1:5000/prediction?ppg='+ppg+'&rpg='+rpg+'&apg='+apg+'&spg='+spg+'&tov='+tov+'&fg_percent='+fg_percent+'&threes='+threes+'&freeThrows='+freeThrows)
         .then((response) => {
-            return response.json();
-        })
-        .then((myJson) => {
-            console.log(myJson.prediction);
+            return response;
         });
+        // .then((myJson) => {
+        //     console.log(myJson.prediction);
+        // });
 }
 
 d3.selectAll("#analysis-btn").on("click", calculateStats);
