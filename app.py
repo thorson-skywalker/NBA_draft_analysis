@@ -73,6 +73,6 @@ def prediction():
 
     # Pass the input json through the prediction.py script and return a bool
     if predict_single_player(player_df):
-        return jsonify(prediction=True)
-    return jsonify(prediction=False)
+        return app.response_class(json.dumps(True), content_type='application/json')
+    return False
 # %%
